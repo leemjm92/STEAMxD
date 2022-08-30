@@ -1,5 +1,5 @@
 # :robot: General Rules :robot:
-Table of Content
+
 # Table of Contents
 * [STEAMxD Competition 2022](#chapter1)
 * [General Rules](#chapter2)
