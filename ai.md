@@ -56,20 +56,25 @@ There are 3 categories, humans, valuables and lights. Each category can then be 
   </figure>
 </p>
 
-<p float="middle">
-  <p>
-  <img src="/data/images/human1.jpg" width="100" />
-  <em>image_caption</em>
+<figure>
+  <p><img src="eiffel.jpg"
+    width="136" height="200"
+    alt="Eiffel tower">
+  <figcaption>Scale model of the
+    Eiffel tower in
+    Parc Mini-France</figcaption>
+</figure>
+
+<figure>
+  <p float="middle">
+    <img src="/data/images/human1.jpg" width="100" />
+    <figcaption>image_caption</figcaption>
+    <img src="/data/images/human1.jpg" width="100" />
+    <figcaption>image_caption</figcaption>
+    <img src="/data/images/human1.jpg" width="100" />
+    <figcaption>image_caption</figcaption>
   </p>
-  <p>
-  <img src="/data/images/human1.jpg" width="100" />
-  <em>image_caption</em>
-  </p>
-  <p>
-  <img src="/data/images/human1.jpg" width="100" />
-  <em>image_caption</em>
-  </p>
-</p>
+</figure>
 
 
 ### Object Categories <a id="chapter1.1"></a>
