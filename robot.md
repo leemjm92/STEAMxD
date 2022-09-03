@@ -13,3 +13,5 @@ Repository for STEAMxD :robot:
 
 
 ### Overview <a id="chapter1"></a>
+
+This markdown will be updated with the instructions on how to assemble the robot along with the provided raspberry pi camera unit for the purpose of the 6 Sept demo this is not the focus.

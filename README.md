@@ -13,3 +13,5 @@ Repository for STEAMxD :robot:
 
 
 ### Overview <a id="chapter1"></a>
+
+To include the overview of the competition explaining the scenario as well as the rules and time limit given.

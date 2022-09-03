@@ -11,17 +11,8 @@
     * [Appeal](#section-2-6)
 
 ## STEAMxD Competition 2022 <a id="chapter1"></a>
-Placeholder text
-Placeholder text
-Placeholder text
-Placeholder text
-Placeholder text
-Placeholder text
-Placeholder text
-Placeholder text
-Placeholder text
-Placeholder text
-Placeholder text 
+Placeholder text Placeholder text Placeholder text Placeholder text Placeholder text Placeholder text Placeholder text Placeholder text Placeholder text Placeholder text Placeholder text Placeholder text Placeholder text Placeholder text Placeholder text Placeholder text Placeholder text Placeholder text Placeholder text Placeholder text Placeholder text Placeholder text Placeholder text Placeholder text Placeholder text Placeholder text Placeholder text Placeholder text Placeholder text Placeholder text Placeholder text Placeholder text Placeholder text Placeholder text Placeholder text Placeholder text
+
 
 ## General Rules <a id="chapter2"></a>
 ### Fundamentals <a id="section-2-1"></a>
