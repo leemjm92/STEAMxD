@@ -1,15 +1,58 @@
-# :robot: STEAMxD :robot:
-Robotics Challenge
+# :robot: AI Object Detection :robot:
+* Baseline data set
+    * Baseline data set has to explain the number of categories as well as the total list of items
+    * Need to include the files to download 
 
-Repository for STEAMxD :robot:
 
 # Table of Contents
-* [Overview](#chapter1)
-* [General Rules](general-rules.md)
-* [Technical Rules](technical-rules.md)
-* [Terrain](terrain.md)
-* [Robot](robot.md)
-* [AI](ai.md)
+* [Dataset](#chapter1)
+    * [Object Categories](#chapter1.1)
+* [Google Colab Notebook](custom-yolov5-object-detection.ipynb)
 
 
-### Overview <a id="chapter1"></a>
+## Dataset <a id="chapter1"></a>
+
+A baseline dataset that is labelled has been included and can be found [here](/data). This baseline dataset includes a total of 90 images, 30 from each category. Teams are required to collect more images and label them accordingly for training of your own custom object detection model for the competition. 
+
+### Object Categories <a id="chapter1.1"></a>
+
+There are 3 categories, humans, valuables and lights. Each category can then be subdivided into subcategories. Below are the list of objects that will be present in the terrain of the competition. 
+
+<p float="middle">
+  <img src="/data/images/human1.jpeg" width="100" />
+  <em>image_caption</em>
+  <img src="/data/images/human1.jpeg" width="100" />
+  <em>image_caption</em>
+  <img src="/data/images/human1.jpeg" width="100" />
+  <em>image_caption</em>
+  <img src="/data/images/human1.jpeg" width="100" />
+</p>
+
+<p float="middle">
+  <img src="/data/images/human1.jpeg" width="100" />
+  <em>image_caption</em>
+  <img src="/data/images/human1.jpeg" width="100" />
+  <em>image_caption</em>
+  <img src="/data/images/human1.jpeg" width="100" />
+  <em>image_caption</em>
+  <img src="/data/images/human1.jpeg" width="100" />
+</p>
+
+<p float="middle">
+  <img src="/data/images/human1.jpeg" width="100" />
+  <em>image_caption</em>
+  <img src="/data/images/human1.jpeg" width="100" />
+  <em>image_caption</em>
+  <img src="/data/images/human1.jpeg" width="100" />
+  <em>image_caption</em>
+  <img src="/data/images/human1.jpeg" width="100" />
+</p>
+
+
+### Object Categories <a id="chapter1.1"></a>
+
+### Object Categories <a id="chapter1.1"></a>
+
+
+
+
