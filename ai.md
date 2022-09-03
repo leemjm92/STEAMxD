@@ -57,14 +57,18 @@ There are 3 categories, humans, valuables and lights. Each category can then be 
 </p>
 
 <p float="middle">
+  <p>
   <img src="/data/images/human1.jpg" width="100" />
-  testing 1
+  <em>image_caption</em>
+  </p>
+  <p>
   <img src="/data/images/human1.jpg" width="100" />
-  testing 2
+  <em>image_caption</em>
+  </p>
+  <p>
   <img src="/data/images/human1.jpg" width="100" />
-  testing 3
-  <img src="/data/images/human1.jpg" width="100" />
-  testing 4
+  <em>image_caption</em>
+  </p>
 </p>
 
 
