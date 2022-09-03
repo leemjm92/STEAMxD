@@ -77,7 +77,7 @@ There are 3 categories, humans, valuables and lights. Each category can then be 
 </figure>
 
 <figure class="inline end" markdown>
-  ![image7](/data/images/human1.jpg)
+  <img src="/data/images/human1.jpg" width="100" />
   <figcaption>An assembled 'base' PCB</figcaption>
 </figure>
 
