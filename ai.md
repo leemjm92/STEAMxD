@@ -19,36 +19,60 @@ A baseline dataset that is labelled has been included and can be found [here](/d
 There are 3 categories, humans, valuables and lights. Each category can then be subdivided into subcategories. Below are the list of objects that will be present in the terrain of the competition. 
 
 <p float="middle">
-  <img src="/data/images/human1.jpg" width="100" />
-  <em>image_caption</em>
-  <img src="/data/images/human1.jpg" width="100" />
-  <em>image_caption</em>
-  <img src="/data/images/human1.jpg" width="100" />
-  <em>image_caption</em>
-  <img src="/data/images/human1.jpg" width="100" />
-  <em>image_caption</em>
+  <figure>
+    <img src="/data/images/human1.jpg" width="100" />
+    <figcaption>This is my caption 1.</figcaption>
+  </figure>
+  <figure>
+    <img src="/data/images/human1.jpg" width="100" />
+    <figcaption>This is my caption 2.</figcaption>
+  </figure>
+  <figure>
+    <img src="/data/images/human1.jpg" width="100" />
+    <figcaption>This is my caption 3.</figcaption>
+  </figure>
+  <figure>
+    <img src="/data/images/human1.jpg" width="100" />
+    <figcaption>This is my caption 4.</figcaption>
+  </figure>
 </p>
 
 <p float="middle">
-  <img src="/data/images/human1.jpg" width="100" />
-  <em>image_caption</em>
-  <img src="/data/images/human1.jpg" width="100" />
-  <em>image_caption</em>
-  <img src="/data/images/human1.jpg" width="100" />
-  <em>image_caption</em>
-  <img src="/data/images/human1.jpg" width="100" />
-  <em>image_caption</em>
+  <figure>
+    <img src="/data/images/human1.jpg" width="100" />
+    <figcaption>This is my caption text.</figcaption>
+  </figure>
+  <figure>
+    <img src="/data/images/human1.jpg" width="100" />
+    <figcaption>This is my caption text.</figcaption>
+  </figure>
+  <figure>
+    <img src="/data/images/human1.jpg" width="100" />
+    <figcaption>This is my caption text.</figcaption>
+  </figure>
+  <figure>
+    <img src="/data/images/human1.jpg" width="100" />
+    <figcaption>This is my caption text.</figcaption>
+  </figure>
 </p>
 
 <p float="middle">
-  <img src="/data/images/human1.jpg" width="100" />
-  <em>image_caption</em>
-  <img src="/data/images/human1.jpg" width="100" />
-  <em>image_caption</em>
-  <img src="/data/images/human1.jpg" width="100" />
-  <em>image_caption</em>
-  <img src="/data/images/human1.jpg" width="100" />
-  <em>image_caption</em>
+  <figure>
+    <img src="/data/images/human1.jpg" width="100" />
+    <figcaption>This is my caption text.</figcaption>
+  </figure>
+  <figure>
+    <img src="/data/images/human1.jpg" width="100" />
+    <figcaption>This is my caption text.</figcaption>
+  </figure>
+  <figure>
+    <img src="/data/images/human1.jpg" width="100" />
+    <figcaption>This is my caption text.</figcaption>
+  </figure>
+  <figure>
+    <img src="/data/images/human1.jpg" width="100" />
+    <figcaption>This is my caption text.</figcaption>
+  </figure>
 </p>
 
 
