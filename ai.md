@@ -34,10 +34,13 @@ There are 3 categories, humans, valuables and lights. Each category can then be 
 </p>
 
 <p align="center">
-    <img src="/data/images/human1.jpg" width="20%" title='testing1' style="padding: 0px 0px 0px 3px;" />
-    <img src="/data/images/human1.jpg" width="20%" title='testing2' style="padding: 3px 0px 0px 3px;"/>
-    <img src="/data/images/human1.jpg" width="20%" title='testing3' style="padding: 0px 3px 0px 3px;"/>
-    <img src="/data/images/human1.jpg" width="20%" title='testing4' style="padding: 0px 0px 3px 3px;"/>
+    <img src="/data/images/human1.jpg" width="20%" title='testing1' />
+    &nbsp;&nbsp;&nbsp;
+    <img src="/data/images/human1.jpg" width="20%" title='testing2' />
+    &nbsp;&nbsp;
+    <img src="/data/images/human1.jpg" width="20%" title='testing3' />
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="/data/images/human1.jpg" width="20%" title='testing4' />
 </p>
 
 ## Labeling <a id="chapter2"></a>
