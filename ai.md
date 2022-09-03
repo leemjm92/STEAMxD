@@ -27,17 +27,17 @@ A baseline dataset that is labelled has been included and can be found [here](/d
 There are 3 categories, humans, valuables and lights. Each category can then be subdivided into subcategories. Below are the list of objects that will be present in the terrain of the competition. 
 
 <p align="center">
-    <img src="/data/images/human1.jpg" width="100" title='testing1' />
+    <img src="/data/images/human1.jpg" width="100" title='testing1 ' />
     <img src="/data/images/human1.jpg" width="100" title='testing2' />
     <img src="/data/images/human1.jpg" width="100" title='testing3' />
     <img src="/data/images/human1.jpg" width="100" title='testing4' />
 </p>
 
 <p align="center">
-    <img src="/data/images/human1.jpg" width="20%" title='testing1' />
-    <img src="/data/images/human1.jpg" width="20%" title='testing2' />
-    <img src="/data/images/human1.jpg" width="20%" title='testing3' />
-    <img src="/data/images/human1.jpg" width="20%" title='testing4' />
+    <img src="/data/images/human1.jpg" width="20%" title='testing1' style="padding: 0px 0px 0px 3px;" />
+    <img src="/data/images/human1.jpg" width="20%" title='testing2' style="padding: 3px 0px 0px 3px;"/>
+    <img src="/data/images/human1.jpg" width="20%" title='testing3' style="padding: 0px 3px 0px 3px;"/>
+    <img src="/data/images/human1.jpg" width="20%" title='testing4' style="padding: 0px 0px 3px 3px;"/>
 </p>
 
 ## Labeling <a id="chapter2"></a>
