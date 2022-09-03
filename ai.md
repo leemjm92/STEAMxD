@@ -33,6 +33,13 @@ There are 3 categories, humans, valuables and lights. Each category can then be 
     <img src="/data/images/human1.jpg" width="100" title='testing4' />
 </p>
 
+<p align="center">
+    <img src="/data/images/human1.jpg" width="20%" title='testing1' />
+    <img src="/data/images/human1.jpg" width="20%" title='testing2' />
+    <img src="/data/images/human1.jpg" width="20%" title='testing3' />
+    <img src="/data/images/human1.jpg" width="20%" title='testing4' />
+</p>
+
 ## Labeling <a id="chapter2"></a>
 
 Before teams can proceed to train the model labelling of the new images will be required. Below is a guided tutorial on how to label the images. Teams can obtain the label.txt file [here](/data). 
