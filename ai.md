@@ -76,6 +76,21 @@ There are 3 categories, humans, valuables and lights. Each category can then be 
   </p>
 </figure>
 
+<div class="row">
+    <figure>
+        <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+        <img src="https://www.w3schools.com/tags/img_pulpit.jpg" alt="The Pulpit Rock" width="304" height="228">
+    </figure>
+    <figure>
+        <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+        <img src="https://www.w3schools.com/tags/img_pulpit.jpg" alt="The Pulpit Rock" width="304" height="228">
+    </figure>
+    <figure>
+        <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+        <img src="https://www.w3schools.com/tags/img_pulpit.jpg" alt="The Pulpit Rock" width="304" height="228">
+    </figure>
+</div>
+
 
 ### Object Categories <a id="chapter1.1"></a>
 
