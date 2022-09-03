@@ -76,6 +76,11 @@ There are 3 categories, humans, valuables and lights. Each category can then be 
   </p>
 </figure>
 
+<figure class="inline end" markdown>
+  ![image7](/data/images/human1.jpg)
+  <figcaption>An assembled 'base' PCB</figcaption>
+</figure>
+
 <div class="row">
     <figure>
         <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
