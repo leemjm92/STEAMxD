@@ -21,25 +21,6 @@ There are 3 categories, humans, valuables and lights. Each category can then be 
 <p float="middle">
   <figure>
     <img src="/data/images/human1.jpg" width="100" />
-    <figcaption>This is my caption 1.</figcaption>
-  </figure>
-  <figure>
-    <img src="/data/images/human1.jpg" width="100" />
-    <figcaption>This is my caption 2.</figcaption>
-  </figure>
-  <figure>
-    <img src="/data/images/human1.jpg" width="100" />
-    <figcaption>This is my caption 3.</figcaption>
-  </figure>
-  <figure>
-    <img src="/data/images/human1.jpg" width="100" />
-    <figcaption>This is my caption 4.</figcaption>
-  </figure>
-</p>
-
-<p float="middle">
-  <figure>
-    <img src="/data/images/human1.jpg" width="100" />
     <figcaption>This is my caption text.</figcaption>
   </figure>
   <figure>
@@ -73,6 +54,17 @@ There are 3 categories, humans, valuables and lights. Each category can then be 
     <img src="/data/images/human1.jpg" width="100" />
     <figcaption>This is my caption text.</figcaption>
   </figure>
+</p>
+
+<p float="middle">
+  <img src="/data/images/human1.jpg" width="100" />
+  testing 1
+  <img src="/data/images/human1.jpg" width="100" />
+  testing 2
+  <img src="/data/images/human1.jpg" width="100" />
+  testing 3
+  <img src="/data/images/human1.jpg" width="100" />
+  testing 4
 </p>
 
 
