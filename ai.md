@@ -26,11 +26,11 @@ A baseline dataset that is labelled has been included and can be found [here](/d
 
 There are 3 categories, humans, valuables and lights. Each category can then be subdivided into subcategories. Below are the list of objects that will be present in the terrain of the competition. 
 
-<p float="center">
-    <img src="/data/images/human1.jpg" width="100" alt='testing1' />
-    <img src="/data/images/human1.jpg" width="100" alt='testing2' />
-    <img src="/data/images/human1.jpg" width="100" alt='testing3' />
-    <img src="/data/images/human1.jpg" width="100" alt='testing4' />
+<p align="center">
+    <img src="/data/images/human1.jpg" width="100" title='testing1' />
+    <img src="/data/images/human1.jpg" width="100" title='testing2' />
+    <img src="/data/images/human1.jpg" width="100" title='testing3' />
+    <img src="/data/images/human1.jpg" width="100" title='testing4' />
 </p>
 
 ## Labeling <a id="chapter2"></a>
