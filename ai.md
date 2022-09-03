@@ -19,82 +19,13 @@ A baseline dataset that is labelled has been included and can be found [here](/d
 There are 3 categories, humans, valuables and lights. Each category can then be subdivided into subcategories. Below are the list of objects that will be present in the terrain of the competition. 
 
 <p float="middle">
-  <figure>
-    <img src="/data/images/human1.jpg" width="100" />
-    <figcaption>This is my caption text.</figcaption>
-  </figure>
-  <figure>
-    <img src="/data/images/human1.jpg" width="100" />
-    <figcaption>This is my caption text.</figcaption>
-  </figure>
-  <figure>
-    <img src="/data/images/human1.jpg" width="100" />
-    <figcaption>This is my caption text.</figcaption>
-  </figure>
-  <figure>
-    <img src="/data/images/human1.jpg" width="100" />
-    <figcaption>This is my caption text.</figcaption>
-  </figure>
+    <img src="/data/images/human1.jpg" width="100" alt='testing1' />
+    <img src="/data/images/human1.jpg" width="100" alt='testing2' />
+    <img src="/data/images/human1.jpg" width="100" alt='testing3' />
+    <img src="/data/images/human1.jpg" width="100" alt='testing4' />
 </p>
 
-<p float="middle">
-  <figure>
-    <img src="/data/images/human1.jpg" width="100" />
-    <figcaption>This is my caption text.</figcaption>
-  </figure>
-  <figure>
-    <img src="/data/images/human1.jpg" width="100" />
-    <figcaption>This is my caption text.</figcaption>
-  </figure>
-  <figure>
-    <img src="/data/images/human1.jpg" width="100" />
-    <figcaption>This is my caption text.</figcaption>
-  </figure>
-  <figure>
-    <img src="/data/images/human1.jpg" width="100" />
-    <figcaption>This is my caption text.</figcaption>
-  </figure>
-</p>
 
-<figure>
-  <p><img src="eiffel.jpg"
-    width="136" height="200"
-    alt="Eiffel tower">
-  <figcaption>Scale model of the
-    Eiffel tower in
-    Parc Mini-France</figcaption>
-</figure>
-
-<figure>
-  <p float="middle">
-    <img src="/data/images/human1.jpg" width="100" />
-    <figcaption>image_caption</figcaption>
-    <img src="/data/images/human1.jpg" width="100" />
-    <figcaption>image_caption</figcaption>
-    <img src="/data/images/human1.jpg" width="100" />
-    <figcaption>image_caption</figcaption>
-  </p>
-</figure>
-
-<figure class="inline end" markdown>
-  <img src="/data/images/human1.jpg" width="100" />
-  <figcaption>An assembled 'base' PCB</figcaption>
-</figure>
-
-<div class="row">
-    <figure>
-        <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
-        <img src="https://www.w3schools.com/tags/img_pulpit.jpg" alt="The Pulpit Rock" width="304" height="228">
-    </figure>
-    <figure>
-        <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
-        <img src="https://www.w3schools.com/tags/img_pulpit.jpg" alt="The Pulpit Rock" width="304" height="228">
-    </figure>
-    <figure>
-        <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
-        <img src="https://www.w3schools.com/tags/img_pulpit.jpg" alt="The Pulpit Rock" width="304" height="228">
-    </figure>
-</div>
 
 
 ### Object Categories <a id="chapter1.1"></a>
