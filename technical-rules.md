@@ -7,7 +7,6 @@
     * [Technical Competition Zone 2](#section-2-2)
     * [Technical Competition Zone 3](#section-2-3)
     * [Technical Competition Zone 4](#section-2-4)
-    * [Technical Competition Zone 5](#section-2-5)
 * [Key Field Items](#chapter3)
 * [Robot Requirements](#chapter4)
 * [Scoring Metrics](#chapter5)
@@ -63,13 +62,6 @@ Placeholder text
 4. Teachers / other teams outside the competition area attempting to communicate with teams in the competition area.
 5. Any other behaviours that the organising deem as directly/indirectly interfering with the competition or affecting other teams (e.g. use of dangerous items or inappropriate words, fighting, chasing etc.).
 
-### Technical Competition Zone 5 <a id="section-2-5"></a>
-![placeholder-image](terrain/design/top-view.png)
-
-1. Generally, teachers’ main responsibility is to provide mentorship and guidance to the participating teams before the competition. They can also advise on potential strategies during the competition and help the students review their performance after the competition. 
-    * The teacher should never directly work on/program the robot.
-    * The teacher is not allowed to enter the Competition Area or Preparation Area throughout the competition.
-    * Students can go to the Audience Area to discuss with their teachers when they are not currently completing the challenge in the Competition Area.
 
 ## Key Field Items <a id="chapter3"></a>
 ![placeholder-image](terrain/design/top-view.png)  

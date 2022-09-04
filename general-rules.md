@@ -17,22 +17,19 @@ Placeholder text Placeholder text Placeholder text Placeholder text Placeholder 
 ## General Rules <a id="chapter2"></a>
 ### Fundamentals <a id="section-2-1"></a>
 1. All teachers and team members must be pre-registered in order to enter the venue.
-2. Each team should prepare and bring along their own spare parts, equipment, posters and laptops (if necessary). RIC will not provide any of these during the competition.
-3. No team should be sharing the same laptop or robot program. It will be deemed as cheating if any team is found to do so, and will be immediately disqualified from the RIC.
-4. If a team is found to use solutions identical to external or online resources, or solutions that are clearly designed/made by adults, an investigation will be carried out and the team will be required to justify the originality of their solutions.
+2. No team should be sharing the same laptop or robot program. It will be deemed as cheating if any team is found to do so, and will be immediately disqualified from the STEAMxD.
+3. If a team is found to use solutions identical to external or online resources, or solutions that are clearly designed/made by adults, an investigation will be carried out and the team will be required to justify the originality of their solutions.
     * Logbook, design drafts and/or photos of intermediate prototypes with time stamps may be requested by the organising committee to support the investigation. Hence, we encourage all teams to properly document their work, and treat it as a good learning experience.
 
 ### Robots <a id="section-2-2"></a>
-1. RIC 2021 is for autonomous robots.
-    * After the robot has been started (performed any action, e.g. moving, transforming, displaying etc.), the team would no longer be allowed to interfere with or control the robot’s actions (e.g. attempt to communicate with it via radio, wireless/sound control, wired control etc.).
-    * The robot must be able to stop by itself, instead of being manually stopped by the team (such as via pressing a button, grabbing the robot etc.).
-2. There is no limitation on the brand of hardware/software used. We encourage all participating teams to explore diverse options (even building your own ones!) and adopt the solution they deem to be most suitable for the RIC.
+1. STEAMxD 2023 is for teleoperation FPV robots.
+    * After the robot has been started (performed any action, e.g. moving, transforming, displaying etc.), the team would no longer be allowed to manually interfere with the robot (e.g. attempt to pick it up when stucked, etc.).
 
 ### Venue <a id="section-2-3"></a>
 1. There are in total 3 important areas in the venue: the Competition Area, Preparation Area and Audience Area.
     * The Competition Area is where all the graded competitions will take place. Each team can only enter the competition area during their assigned time slot and leave the area upon finishing the challenge.
     * The Preparation Area is a holding area when teams are not currently taking part in the challenge. Each team will have their own designated area where they can have internal discussions, modify their strategy, observe other teams or simply take a rest.
-    * The Audience Area is where teachers of various teams should stay during the RIC, to allow them to observe the competition and take photos if they wish to. Participating teams will be permitted to come to the Audience Area and interact with their teachers when it is not their turn to compete. However, they will not be allowed to bring along any part of the robot or the robot in whole, nor can they bring their laptop(s) or any storage device to the Audience Area.
+    * The Audience Area is where teachers of various teams should stay during the STEAMxD, to allow them to observe the competition and take photos if they wish to. Participating teams will be permitted to come to the Audience Area and interact with their teachers when it is not their turn to compete. However, they will not be allowed to bring along any part of the robot or the robot in whole, nor can they bring their laptop(s) or any storage device to the Audience Area.
 
 ### Prohibited Behaviours <a id="section-2-4"></a>
 1. Damaging or destroying anything in the venue that the team does not own (e.g. game fields, tables, chairs, venue decorations, robots of other teams etc.).
