@@ -1,7 +1,4 @@
 # :robot: AI Object Detection :robot:
-* Baseline data set
-    * Baseline data set has to explain the number of categories as well as the total list of items
-    * Need to include the files to download 
 
 
 # Table of Contents
@@ -39,8 +36,22 @@ There are 3 categories, humans, valuables and lights. Each category can then be 
     <img src="/.github/images/human1.jpg" width="20%" title='testing2' />
     &nbsp;&nbsp;&nbsp;
     <img src="/.github/images/human1.jpg" width="20%" title='testing3' />
+</p>
+
+<p align="center">
+    <img src="/.github/images/phone1.jpg" width="20%" title='testing1' />
     &nbsp;&nbsp;&nbsp;
-    <img src="/.github/images/human1.jpg" width="20%" title='testing4' />
+    <img src="/.github/images/phone1.jpg" width="20%" title='testing2' />
+    &nbsp;&nbsp;&nbsp;
+    <img src="/.github/images/phone1.jpg" width="20%" title='testing3' />
+</p>
+
+<p align="center">
+    <img src="/.github/images/lights1.jpg" width="20%" title='testing1' />
+    &nbsp;&nbsp;&nbsp;
+    <img src="/.github/images/lights1.jpg" width="20%" title='testing2' />
+    &nbsp;&nbsp;&nbsp;
+    <img src="/.github/images/lights1.jpg" width="20%" title='testing3' />
 </p>
 
 ## Labeling <a id="chapter3"></a>
@@ -52,7 +63,7 @@ https://user-images.githubusercontent.com/65292018/188316871-39b920eb-b4fd-414b-
 
 ## Training the custom object detection model <a id="chapter4"></a>
 
-The Google Colab notebook with the relevant instructions can be obtained [here](custom-yolov5-object-detection.ipynb). The notebook contains step by step instructions on how to do data augmentation on your labelled custom dataset, train your custom model with your custom dataset and evaluate your custom model
+The Google Colab notebook with the relevant instructions can be obtained [here](custom-yolov5-object-detection.ipynb). The notebook contains step by step instructions on how to do data augmentation on your labelled custom dataset, train your custom model with your custom dataset and evaluate your custom model.
 
 
 ## Tips <a id="chapter5"></a>
