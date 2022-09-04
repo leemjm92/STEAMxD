@@ -55,6 +55,8 @@ Insert the gif for how to do labeling on makesense.ai
 
 testing?
 
+https://github.com/leemjm92/STEAMxD/blob/main/.github/videos/labelling.mov?raw=true
+
 
 ## Training the custom object detection model <a id="chapter1.1"></a>
 
