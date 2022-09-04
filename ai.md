@@ -14,9 +14,13 @@
 * [Tips](#chapter1)
 * [Reference](#chapter1)
 
-## Overview <a id="chapter1"></a>  
+## Overview <a id="chapter1"></a>
 
-To include the picture of the cycle of how it works
+<p align="center">
+    <img src="/data/images/ai-overview.jpg" width="400" title='testing1' />
+</p>
+
+The diagram shows the iteration process when training a custom object detection model. Teams will be required to use two online platforms mainly [makesense.ai](https://www.makesense.ai/) for labelling of new images and [google colab notebook](custom-yolov5-object-detection.ipynb) for augmentation, training and evaluation of models. 
 
 ## Dataset <a id="chapter2"></a>
 
@@ -27,7 +31,7 @@ A baseline dataset that is labelled has been included and can be found [here](/d
 There are 3 categories, humans, valuables and lights. Each category can then be subdivided into subcategories. Below are the list of objects that will be present in the terrain of the competition. 
 
 <p align="center">
-    <img src="/data/images/human1.jpg" width="100" title='testing1 ' />
+    <img src="/data/images/human1.jpg" width="100" title='testing1' />
     <img src="/data/images/human1.jpg" width="100" title='testing2' />
     <img src="/data/images/human1.jpg" width="100" title='testing3' />
     <img src="/data/images/human1.jpg" width="100" title='testing4' />
