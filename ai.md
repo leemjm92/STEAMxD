@@ -17,7 +17,7 @@
 ## Overview <a id="chapter1"></a>
 
 <p align="center">
-    <img src="/data/images/ai-overview.jpg" width="60%" title='testing1' />
+    <img src="/data/images/ai-overview.jpg" width="90%" title='testing1' />
 </p>
 
 The diagram shows the iteration process when training a custom object detection model. Teams will be required to use two online platforms mainly [makesense.ai](https://www.makesense.ai/) for labelling of new images and [google colab notebook](custom-yolov5-object-detection.ipynb) for augmentation, training and evaluation of models. 
