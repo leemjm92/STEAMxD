@@ -17,7 +17,7 @@
 ## Overview <a id="chapter1"></a>
 
 <p align="center">
-    <img src="/data/images/ai-overview.jpg" width="90%" title='testing1' />
+    <img src="/.github/images/ai-overview.jpg" width="90%" title='testing1' />
 </p>
 
 The diagram shows the iteration process when training a custom object detection model. Teams will be required to use two online platforms mainly [makesense.ai](https://www.makesense.ai/) for labelling of new images and [google colab notebook](custom-yolov5-object-detection.ipynb) for augmentation, training and evaluation of models. 
@@ -31,27 +31,29 @@ A baseline dataset that is labelled has been included and can be found [here](/d
 There are 3 categories, humans, valuables and lights. Each category can then be subdivided into subcategories. Below are the list of objects that will be present in the terrain of the competition. 
 
 <p align="center">
-    <img src="/data/images/human1.jpg" width="100" title='testing1' />
-    <img src="/data/images/human1.jpg" width="100" title='testing2' />
-    <img src="/data/images/human1.jpg" width="100" title='testing3' />
-    <img src="/data/images/human1.jpg" width="100" title='testing4' />
+    <img src="/.github/images/human1.jpg" width="100" title='testing1' />
+    <img src="/.github/images/human1.jpg" width="100" title='testing2' />
+    <img src="/.github/images/human1.jpg" width="100" title='testing3' />
+    <img src="/.github/images/human1.jpg" width="100" title='testing4' />
 </p>
 
 <p align="center">
-    <img src="/data/images/human1.jpg" width="20%" title='testing1' />
+    <img src="/.github/images/human1.jpg" width="20%" title='testing1' />
     &nbsp;&nbsp;&nbsp;
-    <img src="/data/images/human1.jpg" width="20%" title='testing2' />
-    &nbsp;&nbsp;
-    <img src="/data/images/human1.jpg" width="20%" title='testing3' />
-    &nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="/data/images/human1.jpg" width="20%" title='testing4' />
+    <img src="/.github/images/human1.jpg" width="20%" title='testing2' />
+    &nbsp;&nbsp;&nbsp;
+    <img src="/.github/images/human1.jpg" width="20%" title='testing3' />
+    &nbsp;&nbsp;&nbsp;
+    <img src="/.github/images/human1.jpg" width="20%" title='testing4' />
 </p>
 
 ## Labeling <a id="chapter2"></a>
 
-Before teams can proceed to train the model labelling of the new images will be required. Below is a guided tutorial on how to label the images. Teams can obtain the label.txt file [here](/data). 
+Before teams can proceed to train the model labelling of the new images will be required. Below is a guided tutorial on how to label the images. Teams can obtain the label.txt file [here](/data/labels-list.txt). 
 
 Insert the gif for how to do labeling on makesense.ai
+
+testing?
 
 
 ## Training the custom object detection model <a id="chapter1.1"></a>
