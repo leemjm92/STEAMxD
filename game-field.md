@@ -31,9 +31,9 @@ top view  |  front view   | side view  (images)
 
 <p align="center">
     <img src="/.github/images/human1.jpg" width="20%" title='testing1' />
-    &nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <img src="/.github/images/human1.jpg" width="20%" title='testing2' />
-    &nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <img src="/.github/images/human1.jpg" width="20%" title='testing3' />
 </p>
 
@@ -43,9 +43,9 @@ top view  |  front view   | side view  (images)
 
 <p align="center">   
     <img src="/.github/images/human1.jpg" width="20%" title='testing1' />
-    &nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <img src="/.github/images/human1.jpg" width="20%" title='testing2' />
-    &nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <img src="/.github/images/human1.jpg" width="20%" title='testing3' />
 </p>
 
@@ -55,9 +55,9 @@ top view  |  front view   | side view  (images)
 
 <p align="center">
     <img src="/.github/images/human1.jpg" width="20%" title='testing1' />
-    &nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <img src="/.github/images/human1.jpg" width="20%" title='testing2' />
-    &nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <img src="/.github/images/human1.jpg" width="20%" title='testing3' />
 </p>
 
