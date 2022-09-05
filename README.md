@@ -3,6 +3,11 @@ Robotics Challenge
 
 Repository for STEAMxD :robot:
 
+<p align="center">
+    <img src="/.github/images/ai-image2.png" width="50%" title='tank robot with building rubbles. cyberpunk, steampunk, ultra detail.' />
+    <img src="/.github/images/ai-image1.png" width="50%" title='track robot with earthquake disaster. cartoon, steampunk, ultra detail.' />
+</p>
+
 # Table of Contents
 * [Overview](#chapter1)
 * [General Rules](general-rules.md)
