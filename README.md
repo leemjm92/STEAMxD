@@ -7,7 +7,7 @@ Repository for STEAMxD :robot:
 * [Overview](#chapter1)
 * [General Rules](general-rules.md)
 * [Technical Rules](technical-rules.md)
-* [Terrain](terrain.md)
+* [Game Field](game-field.md)
 * [Robot](robot.md)
 * [AI](ai.md)
 
