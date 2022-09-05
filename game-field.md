@@ -25,9 +25,11 @@ The terrain consist of 4 zones, the 4 zones are then further split into 2 indoor
 top view  |  front view   | side view  (images)
 --->
 
-
 <p align="center">
     <hx>Testing</hx>
+</p>
+
+<p align="center">
     <img src="/.github/images/human1.jpg" width="20%" title='testing1' />
     &nbsp;&nbsp;&nbsp;
     <img src="/.github/images/human1.jpg" width="20%" title='testing2' />
@@ -37,6 +39,9 @@ top view  |  front view   | side view  (images)
 
 <p align="center">
     <font size="3">Hello</font>
+</p>
+
+<p align="center">   
     <img src="/.github/images/human1.jpg" width="20%" title='testing1' />
     &nbsp;&nbsp;&nbsp;
     <img src="/.github/images/human1.jpg" width="20%" title='testing2' />
@@ -46,6 +51,9 @@ top view  |  front view   | side view  (images)
 
 <p align="center">
     <font size="5">World</font>
+</p>
+
+<p align="center">
     <img src="/.github/images/human1.jpg" width="20%" title='testing1' />
     &nbsp;&nbsp;&nbsp;
     <img src="/.github/images/human1.jpg" width="20%" title='testing2' />
