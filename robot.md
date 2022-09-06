@@ -82,5 +82,5 @@ Follow the instructions of the mBot instruction set from page 19 onwards. After 
 
 ### How to access your picamera stream <a id="chapter2-2"></a>
 
-picamera1 (black housing) - [link](http://10.21.135.99:9000)
+picamera1 (black housing) - [link](http://10.21.135.99:9000) \
 picamera2 (white housing) - [link](http://10.21.140.11:9000)
