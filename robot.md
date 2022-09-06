@@ -17,3 +17,61 @@ Repository for STEAMxD :robot:
 This markdown will be updated with the instructions on how to assemble the robot along with the provided raspberry pi camera unit for the purpose of the 6 Sept demo this is not the focus.
 
 ## Assembly <a id="chapter2"></a>
+
+### How to assemble the picamera module
+
+<p align="center">
+    Step 1: Attached the picamera housing to the robot frame
+</p>
+
+<p align="center">
+    <img src="/.github/images/picam-step1.jpg" width="60%" title='step 1' />
+</p>
+
+<p align="center">
+    Step 2: Once the picamera is attached to the frame, loop the ribbon cable and insert the ribbon cable into the raspberry pi 4. Follow the steps below to ensure that you've attached the ribbon cable correctly to the raspberry pi 4.
+</p>
+
+<p align="center">
+    <img src="/.github/images/picam-step2.jpg" width="60%" title='step 2' />
+</p>
+
+<p align="center">
+    <img src="/.github/images/picam-step3.jpg" width="60%" title='step 3' />
+</p>
+
+<p align="center">
+    <img src="/.github/images/picam-step4.jpg" width="60%" title='step 4' />
+</p>
+
+<p align="center">
+    <img src="/.github/images/picam-step5.jpg" width="60%" title='step 5' />
+</p>
+
+<p align="center">
+    <img src="/.github/images/picam-step6.jpg" width="60%" title='step 6' />
+</p>
+
+<p align="center">
+    Step 3: Place the raspberry pi 4 into the holder 
+</p>
+
+<p align="center">
+    <img src="/.github/images/picam-step7.jpg" width="60%" title='step 7' />
+</p>
+
+<p align="center">
+    Step 4: Secure the housing to the robot frame
+</p>
+
+<p align="center">
+    <img src="/.github/images/picam-step8.jpg" width="60%" title='step 8' />
+</p>
+
+<p align="center">
+    Step 5: Place the provided powerbank and power on your raspberry pi 4
+</p>
+
+<p align="center">
+    <img src="/.github/images/picam-step9.jpg" width="200px" height="200px" title='step 9' />
+</p>
