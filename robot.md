@@ -33,23 +33,23 @@ This markdown will be updated with the instructions on how to assemble the robot
 </p>
 
 <p align="center">
-    <img src="/.github/images/picam-step2.jpg" width="60%" title='step 2' />
+    <img src="/.github/images/picam-step2.jpg" width="45%" title='step 2' />
 </p>
 
 <p align="center">
-    <img src="/.github/images/picam-step3.jpg" width="60%" title='step 3' />
+    <img src="/.github/images/picam-step3.jpg" width="45%" title='step 3' />
 </p>
 
 <p align="center">
-    <img src="/.github/images/picam-step4.jpg" width="60%" title='step 4' />
+    <img src="/.github/images/picam-step4.jpg" width="45%" title='step 4' />
 </p>
 
 <p align="center">
-    <img src="/.github/images/picam-step5.jpg" width="60%" title='step 5' />
+    <img src="/.github/images/picam-step5.jpg" width="45%" title='step 5' />
 </p>
 
 <p align="center">
-    <img src="/.github/images/picam-step6.jpg" width="60%" title='step 6' />
+    <img src="/.github/images/picam-step6.jpg" width="45%" title='step 6' />
 </p>
 
 <p align="center">
@@ -57,7 +57,7 @@ This markdown will be updated with the instructions on how to assemble the robot
 </p>
 
 <p align="center">
-    <img src="/.github/images/picam-step7.jpg" width="60%" title='step 7' />
+    <img src="/.github/images/picam-step7.jpg" width="45%" title='step 7' />
 </p>
 
 <p align="center">
@@ -65,7 +65,7 @@ This markdown will be updated with the instructions on how to assemble the robot
 </p>
 
 <p align="center">
-    <img src="/.github/images/picam-step8.jpg" width="60%" title='step 8' />
+    <img src="/.github/images/picam-step8.jpg" width="45%" title='step 8' />
 </p>
 
 <p align="center">
@@ -73,5 +73,5 @@ This markdown will be updated with the instructions on how to assemble the robot
 </p>
 
 <p align="center">
-    <img src="/.github/images/picam-step9.jpg" width="200px" height="200px" title='step 9' />
+    <img src="/.github/images/picam-step9.jpg" width="45%" title='step 9' />
 </p>
