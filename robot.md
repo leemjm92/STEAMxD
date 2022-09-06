@@ -7,6 +7,7 @@ Repository for STEAMxD :robot:
 * [Overview](#chapter1)
 * [Assembly](#chapter2)
     * [How to assemble the picamera module](#chapter2-1)
+    * [How to access your picamera stream](#chapter2-2)
 * [Technical Rules](technical-rules.md)
 * [Terrain](terrain.md)
 * [Robot](robot.md)
@@ -78,3 +79,8 @@ Follow the instructions of the mBot instruction set from page 19 onwards. After 
 <p align="center">
     <img src="/.github/images/picam-step9.jpg" width="45%" title='step 9' />
 </p>
+
+### How to access your picamera stream <a id="chapter2-2"></a>
+
+picamera1 (black housing) - [link](http://10.21.135.99:9000)
+picamera2 (white housing) - [link](http://10.21.140.11:9000)
