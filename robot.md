@@ -21,15 +21,15 @@ This markdown will be updated with the instructions on how to assemble the robot
 ### How to assemble the picamera module
 
 <p align="center">
-    Step 1: Attached the picamera housing to the robot frame
+    <b>Step 1</b>: Attached the picamera housing to the robot frame
 </p>
 
 <p align="center">
-    <img src="/.github/images/picam-step1.jpg" width="60%" title='step 1' />
+    <img src="/.github/images/picam-step1.jpg" width="45%" title='step 1' />
 </p>
 
 <p align="center">
-    Step 2: Once the picamera is attached to the frame, loop the ribbon cable and insert the ribbon cable into the raspberry pi 4. Follow the steps below to ensure that you've attached the ribbon cable correctly to the raspberry pi 4.
+    <b>Step 2</b>: Once the picamera is attached to the frame, loop the ribbon cable and insert the ribbon cable into the raspberry pi 4. Follow the steps below to ensure that you've attached the ribbon cable correctly to the raspberry pi 4.
 </p>
 
 <p align="center">
@@ -53,7 +53,7 @@ This markdown will be updated with the instructions on how to assemble the robot
 </p>
 
 <p align="center">
-    Step 3: Place the raspberry pi 4 into the holder 
+    <b>Step 3</b>: Place the raspberry pi 4 into the holder 
 </p>
 
 <p align="center">
@@ -61,7 +61,7 @@ This markdown will be updated with the instructions on how to assemble the robot
 </p>
 
 <p align="center">
-    Step 4: Secure the housing to the robot frame
+    <b>Step 4</b>: Secure the housing to the robot frame
 </p>
 
 <p align="center">
@@ -69,7 +69,7 @@ This markdown will be updated with the instructions on how to assemble the robot
 </p>
 
 <p align="center">
-    Step 5: Place the provided powerbank and power on your raspberry pi 4
+    <b>Step 5</b>: Place the provided powerbank and power on your raspberry pi 4
 </p>
 
 <p align="center">
