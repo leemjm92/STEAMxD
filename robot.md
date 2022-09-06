@@ -6,6 +6,7 @@ Repository for STEAMxD :robot:
 # Table of Contents
 * [Overview](#chapter1)
 * [Assembly](#chapter2)
+    * [How to assemble the picamera module](#chapter2-1)
 * [Technical Rules](technical-rules.md)
 * [Terrain](terrain.md)
 * [Robot](robot.md)
@@ -18,7 +19,9 @@ This markdown will be updated with the instructions on how to assemble the robot
 
 ## Assembly <a id="chapter2"></a>
 
-### How to assemble the picamera module
+Follow the instructions of the mBot instruction set from page 19 onwards. After reaching step 15 (page 23) please proceed to skip step 16 and step 17 and complete step 18. Once step 18 is completed please proceed to the next section on [How to assemble the picamera module](#chapter2-1) 
+
+### How to assemble the picamera module  <a id="chapter2-1"></a>
 
 <p align="center">
     <b>Step 1</b>: Attached the picamera housing to the robot frame
@@ -53,7 +56,7 @@ This markdown will be updated with the instructions on how to assemble the robot
 </p>
 
 <p align="center">
-    <b>Step 3</b>: Place the raspberry pi 4 into the holder 
+    <b>Step 3</b>: Place the raspberry pi 4 into the holder and proceed to mBot instruction set step 16 (page 24)
 </p>
 
 <p align="center">
@@ -61,7 +64,7 @@ This markdown will be updated with the instructions on how to assemble the robot
 </p>
 
 <p align="center">
-    <b>Step 4</b>: Secure the housing to the robot frame
+    <b>Step 4</b>: Secure the housing to the robot frame 
 </p>
 
 <p align="center">
