@@ -17,6 +17,7 @@ Robotics Challenge
 * [Game Field](game-field.md)
 * [Robot](robot.md)
 * [AI](ai.md)
+* [Raspberry Pi FPV Camera](rpi-setup.md)
 
 
 ### Overview <a id="chapter1"></a>
