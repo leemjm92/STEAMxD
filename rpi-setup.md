@@ -10,7 +10,7 @@ credit: [PyShine](https://pyshine.com) and [Sam Westby Tech](https://www.youtube
 6. Powerbank
 
 ## Flash OS
-1. Insert the SD card (better > 8GB size) into an USB card reader and plug it to your Computer (any of Mac OS, Windows and Ubuntu/Linux).
+1. Insert the SD card (better > 16GB size) into an USB card reader and plug it to your Computer (any of Mac OS, Windows and Ubuntu/Linux).
 2. Go to the official link to download the Raspberry Pi Imager https://www.raspberrypi.org/software/
 3. It is really quick and easy to install. You can watch the 3-steps here: [link](https://www.youtube.com/watch?v=J024soVgEeM)
 <!--
