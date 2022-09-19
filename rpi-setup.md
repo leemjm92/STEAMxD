@@ -24,7 +24,8 @@ to insert the relevant pictures for each step do this while I setup another sd c
 instead of using pictures some of the steps can be inlcuded within a short gif/webm/video
 -->
  
-**For Windows:**  
+**For Windows:**
+
 4. Open the device and find the config.txt file, open it in a text editor, go to the last line, press enter and add this dtoverlay=dwc2 after the last line, and save it.
 <!-- to insert picture of how the config file should look like -->
 5. In the device find the cmdline.txt file and add between two spaces this modules-load=dwc2,g_ether, right after the rootwait, then save and close this .txt as well.
