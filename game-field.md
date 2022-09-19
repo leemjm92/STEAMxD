@@ -65,10 +65,42 @@ top view  |  front view   | side view  (images)
 
 ### Zone 1 <a id="chapter-3-1"></a>
 
+<p align="center">
+    <img src="/.github/images/terrain-prototype-01-topview.jpg" width="20%" title='testing1' />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="/.github/images/terrain-prototype-01-topview.jpg" width="20%" title='testing2' />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="/.github/images/terrain-prototype-01-topview.jpg" width="20%" title='testing3' />
+</p>
+
 ### Zone 2 <a id="chapter-3-1"></a>
+
+<p align="center">
+    <img src="/.github/images/terrain-prototype-01-topview.jpg" width="20%" title='testing1' />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="/.github/images/terrain-prototype-01-topview.jpg" width="20%" title='testing2' />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="/.github/images/terrain-prototype-01-topview.jpg" width="20%" title='testing3' />
+</p>
 
 ## Indoor Zones <a id=chapter2></a>
 
 ### Zone 3 <a id="chapter-2-1"></a>
 
+<p align="center">
+    <img src="/.github/images/terrain-prototype-01-topview.jpg" width="20%" title='testing1' />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="/.github/images/terrain-prototype-01-topview.jpg" width="20%" title='testing2' />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="/.github/images/terrain-prototype-01-topview.jpg" width="20%" title='testing3' />
+</p>
+
 ### Zone 4 <a id="chapter-2-1"></a>
+
+<p align="center">
+    <img src="/.github/images/terrain-prototype-01-topview.jpg" width="20%" title='testing1' />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="/.github/images/terrain-prototype-01-topview.jpg" width="20%" title='testing2' />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="/.github/images/terrain-prototype-01-topview.jpg" width="20%" title='testing3' />
+</p>
