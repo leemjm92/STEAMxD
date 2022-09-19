@@ -10,9 +10,9 @@ credit: [PyShine](https://pyshine.com) and [Sam Westby Tech](https://www.youtube
 6. Powerbank
 
 ## Flash OS
-1. Insert the SD card (better > 8GB size) into an USB card reader and plug it to your Computer (any of Mac OS, Windows and Ubuntu/Linux). \
-2. Go to the official link to download the Raspberry Pi Imager https://www.raspberrypi.org/software/ \
-3. It is really quick and easy to install. You can watch the 3-steps here: [link](https://www.youtube.com/watch?v=J024soVgEeM) \
+1. Insert the SD card (better > 8GB size) into an USB card reader and plug it to your Computer (any of Mac OS, Windows and Ubuntu/Linux).
+2. Go to the official link to download the Raspberry Pi Imager https://www.raspberrypi.org/software/
+3. It is really quick and easy to install. You can watch the 3-steps here: [link](https://www.youtube.com/watch?v=J024soVgEeM)
 <!--
 you can define your username and password here when using the Imager if you've done so then
 -->
@@ -25,45 +25,44 @@ instead of using pictures some of the steps can be inlcuded within a short gif/w
 -->
  
 **For Windows:** \
-4. Open the device and find the config.txt file, open it in a text editor, go to the last line, press enter and add this dtoverlay=dwc2 after the last line, and save it. \
+4. Open the device and find the config.txt file, open it in a text editor, go to the last line, press enter and add this dtoverlay=dwc2 after the last line, and save it.
 <!--
 to insert picture of how the config file should look like 
 -->
-5. In the device find the cmdline.txt file and add between two spaces this modules-load=dwc2,g_ether, right after the rootwait, 6. then save and close this .txt as well. \
+5. In the device find the cmdline.txt file and add between two spaces this modules-load=dwc2,g_ether, right after the rootwait, 6. then save and close this .txt as well.
 <!--
 to insert picture of how the cmdline.txt file should look like
 -->
-7. Make an empty file in notepad and save it as ssh and remove the .txt in the name. This fill should exist in the same place as config.txt and cmdline.txt. \
+7. Make an empty file in notepad and save it as ssh and remove the .txt in the name. This fill should exist in the same place as config.txt and cmdline.txt.
 <!--
 use cmdline cd boot directory -> touch ssh 
 -->
-8. Thats it! now remove the SD card and insert it into the Rasbperry Pi SD card slot properly. \
-Simply plug the USB data cable to your Raspberry Pi card and connect it to the computer. The computer will also provide the power to your card, so no need to insert the power cable. 
-9. Upon connection the Windows OS will detect a new LAN device, wait for it to be installed and then we need Bonjour. \
-10. Go to this link, download and install Bonjour https://support.apple.com/kb/dl999?locale=en_GB \
-11. In the Device Properties of Windows OS, find the USB Serial Port and provide it the drivers from this link USB Ethernet Drivers: https://wiki.moddevices.com/wiki/Troubleshooting_Windows_Connection \
-12. After that you can view in the device in the Network and Sharing connections. The device is ready to SSH! \
-13. Next, install Bitvise client software: https://www.bitvise.com/ssh-client-download \
-14. We require the Host, Port, Username and the Password to access the Pi. \
-15. By default: Host is raspberrypi.local, Port is 22, Username is pi, and Password is raspberry, enter these values in the GUI and hit Login. \
+8. Thats it! now remove the SD card and insert it into the Rasbperry Pi SD card slot properly. Simply plug the USB data cable to your Raspberry Pi card and connect it to the computer. The computer will also provide the power to your card, so no need to insert the power cable.
+9. Upon connection the Windows OS will detect a new LAN device, wait for it to be installed and then we need Bonjour.
+10. Go to this link, download and install Bonjour https://support.apple.com/kb/dl999?locale=en_GB
+11. In the Device Properties of Windows OS, find the USB Serial Port and provide it the drivers from this link USB Ethernet Drivers: https://wiki.moddevices.com/wiki/Troubleshooting_Windows_Connection
+12. After that you can view in the device in the Network and Sharing connections. The device is ready to SSH!
+13. Next, install Bitvise client software: https://www.bitvise.com/ssh-client-download
+14. We require the Host, Port, Username and the Password to access the Pi.
+15. By default: Host is raspberrypi.local, Port is 22, Username is pi, and Password is raspberry, enter these values in the GUI and hit Login.
 16. Once login, you can now visualize pi@raspberrypi:~ $ in the Command or Terminal window, enter ls to view your files. Now that we are able to access the PI, the next step is to enable its wifi so that we can download the opencv using a pip installer.
-17. After the ```pi@raspberrypi:~ $``` in the Terminal window, we can write ```sudo raspi-config``` and hit enter to open the configuration window as below:
+17. After the ```pi@raspberrypi:~ $``` in the Terminal window, we can write ```sudo raspi-config``` and hit enter to open the configuration window.
 <!--
 steps 14 to step xx single gif
 -->
-18. Select ```1 System Options``` using the arrow keys and press Enter
-19. Now select ```S1 Wireless LAN```, and Enter the Wifi SSID and the Password and press Enter
+18. Select ```1 System Options``` using the arrow keys and press Enter.
+19. Now select ```S1 Wireless LAN```, and Enter the Wifi SSID and the Password and press Enter.
 <!--
 need to check if the steps are correct from 17 to 19
 -->
-20. Select ```3 Interface Options``` using the arrow keys and press Enter
-21. Now select ```Enable legacy camera``` using the arrows keys and press Enter
-22. Repeat steps 16 and 17 but select ```Enable VNC``` using the arrows keys and press Enter
+20. Select ```3 Interface Options``` using the arrow keys and press Enter.
+21. Now select ```Enable legacy camera``` using the arrows keys and press Enter.
+22. Repeat steps 16 and 17 but select ```Enable VNC``` using the arrows keys and press Enter.
 <!--
 end of not confirmed steps
 -->
-23. Once the wifi access is enable, after the ```pi@raspberrypi:~ $``` in the Terminal window, we need to update the system by using following commands: ```sudo apt-get update && sudo apt-get upgrade```
-24. Once the update has been done proceed to [How to install OpenCV](#chapter5)
+23. Once the wifi access is enable, after the ```pi@raspberrypi:~ $``` in the Terminal window, we need to update the system by using following commands: ```sudo apt-get update && sudo apt-get upgrade```.
+24. Once the update has been done proceed to [How to install OpenCV](#chapter5).
 
 <!--
 [Link](https://pyshine.com/How-to-install-OpenCV-in-Rasspberry-Pi/) \
