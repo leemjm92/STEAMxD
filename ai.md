@@ -19,6 +19,13 @@ The diagram shows the iteration process when training a custom object detection 
 
 ## Dataset <a id="chapter2"></a>
 
+<!--- dataset needs to be collected after I've the figurines a good enough sample will do --->
+<!--- 
+- ipynb to git clone the yolov5 repo that I've edit to remove the settings for the augmentation (this is to allow students to thinking about the type of augmentations they will want to input for training
+- tedious labelling will be cut down after more fine-tuning
+- need to workout the model monitoring with tensorboard then include it in the ipynb
+
+--->
 A baseline dataset that is labelled has been included and can be found [here](/data). This baseline dataset includes a total of 90 images, 30 from each category. Teams are required to collect more images and label them accordingly for training of the custom object detection model for the competition. 
 
 There are 3 categories, humans, valuables and lights. Each category can then be subdivided into subcategories. Below are the list of objects that will be present in the terrain of the competition. 
