@@ -65,6 +65,9 @@ https://user-images.githubusercontent.com/65292018/188316871-39b920eb-b4fd-414b-
 
 The Google Colab notebook with the relevant instructions can be obtained [here](custom-yolov5-object-detection.ipynb). The notebook contains step by step instructions on how to do data augmentation on your labelled custom dataset, train your custom model with your custom dataset and evaluate your custom model.
 
+**SUTD Undergrads**
+Since this is still currently a private repo the access is linked to your github account. To use the notebook via colab please access this [link](https://colab.research.google.com/github/) tick the check mark **Include private repo** then login and allow access to google colab you can then navigate to the repo and select the notebook to test it out.
+
 
 ## Tips <a id="chapter5"></a>
 
