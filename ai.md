@@ -89,6 +89,19 @@ Some tips for best training results can be found in the [original repository](ht
 
 ## Further Learning <a id="chapter7"></a>
 
+https://github.com/aladdinpersson/Machine-Learning-Collection
+https://github.com/zwang4/awesome-machine-learning-in-compilers
+https://github.com/exajobs/machine-learning-collection
+https://github.com/microsoft/machine-learning-collection
+https://github.com/ZuzooVn/machine-learning-for-software-engineers
+https://github.com/eugeneyan/applied-ml
+https://github.com/ChristosChristofidis/awesome-deep-learning
+https://github.com/academic/awesome-datascience
+
+books:
+add Ian book link
+d2l.ai madewithml.com
+
 
 
 
