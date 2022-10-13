@@ -17,6 +17,10 @@
 
 The diagram shows the iteration process when training a custom object detection model. Teams will be required to use two online platforms mainly [makesense.ai](https://www.makesense.ai/) for labelling of new images and [google colab notebook](custom-yolov5-object-detection.ipynb) for augmentation, training and evaluation of models. 
 
+Supervised learning is used for the iteraction process. Please proceed to [Introduction to Machine Learning](https://developers.google.com/machine-learning/intro-to-ml) for a short overview on machine learning and explanation on supervised learning. 
+
+Specifically for the competition sake we will not be delving deeply into the various concepts but would instead aim to enable you all to train and use your own custom object detection model with minimal knowledge. However, if you're interested in advancing your knowledge specifically within the machine learning field you can head on to the [Further Learning](#chapter7) section.
+
 ## Dataset <a id="chapter2"></a>
 
 <!--- dataset needs to be collected after I've the figurines a good enough sample will do --->
@@ -73,6 +77,8 @@ Since this is still currently a private repo the access is linked to your github
 
 
 ## Reference <a id="chapter6"></a>
+
+## Further Learning <a id="chapter7"></a>
 
 
 
