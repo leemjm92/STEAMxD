@@ -28,7 +28,7 @@ Specifically for the competition sake we will not be delving deeply into the var
 - ipynb to git clone the yolov5 repo that I've edit to remove the settings for the augmentation (this is to allow students to thinking about the type of augmentations they will want to input for training
 - tedious labelling will be cut down after more fine-tuning
 - need to workout the model monitoring with tensorboard then include it in the ipynb
-
+- some of the suggestion provided is that there could be X different composition of dataset that the students can choose from (however, how do you ensure that the students do not share the different compostion of dataset around (this idea should be discussed on friday) 
 --->
 A baseline dataset that is labelled has been included and can be found [here](/data). This baseline dataset includes a total of 90 images, 30 from each category. Teams are required to collect more images and label them accordingly for training of the custom object detection model for the competition. 
 
@@ -74,6 +74,15 @@ Since this is still currently a private repo the access is linked to your github
 
 
 ## Tips <a id="chapter5"></a>
+
+Some tips for best training results can be found in the [original repository](https://github.com/ultralytics/yolov5/wiki/Tips-for-Best-Training-Results). 
+<!---
+- include some tips on how to ensure that you're labeling correctly
+    Label consistency. All instances of all classes in all images must be labelled. Partial labelling will not work.
+    Label accuracy. Labels must closely enclose each object. No space should exist between an object and it's bounding box. No objects should be missing a label.
+- background images to reduce false positives (this might be part of their data collection so as to reduce the labeling efforts)
+
+-->
 
 
 ## Reference <a id="chapter6"></a>
