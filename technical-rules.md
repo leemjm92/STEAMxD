@@ -74,20 +74,12 @@ Humans, Pets, Valuables
 1. Every path set that the robot successfully navigates across will be awarded with 1 point (e.g. Successfully navigated across $6 \over 7$ path set; score $6 \over 7$ $\times 50$ = $42.86 \over 50$ points) 
 
 ### Object Detection <a id="section5-2"></a>
-1. Manual scores  
+Scoring  
 
 | Class     | Points |
 | :-:       | :-:    |
 | Humans    | 5      |
 | Pets      | 3      |
-| Valuables | 1      |
-
-2. AI scores  
-
-| Class     | Points |
-| :-:       | :-:    |
-| Humans    | 15     |
-| Pets      | 9      |
 | Valuables | 3      |
 
 3. Every unique object that the team successfully detects accurately will be awarded the corresponding points based on the mode of detection (manual or AI), scoring calculation will always be upon total possible points via AI mode. Below is and example for illustration purpose
