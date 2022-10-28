@@ -5,19 +5,20 @@ from PIL import Image,ImageEnhance
 import numpy as np
 import os
 
-import albumentations as A
+# import albumentations as A
 
 import math
 import random
 
 import subprocess
+import platform
 
 import torch
 import torchvision.transforms as T
 import torchvision.transforms.functional as TF
 
 SCALE_RANGE = (0.3, 0.7)
-PICAM1 = "192.168.1.2"
+PICAM1 = "10.21.135.99"
 PICAM2 = "192.168.1.23"
 PICAM3 = "192.168.1.2"
 PICAM4 = "192.168.1.2"
@@ -29,42 +30,58 @@ PICAM9 = "192.168.1.2"
 PICAM10 = "192.168.1.2"
 PICAM_IP = [PICAM1, PICAM2, PICAM3, PICAM4, PICAM5, PICAM6, PICAM7, PICAM8, PICAM9, PICAM10]
 
-def ping(picam_ip):
+def ping(host):
+    """
+    Returns True if host (str) responds to a ping request.
+    Remember that a host may not respond to a ping (ICMP) request even if the host name is valid.
+    """
+
+    # Option for the number of packets as a function of
+    param = '-n' if platform.system().lower()=='windows' else '-c'
+
+    # Building the command. Ex: "ping -c 1 google.com"
+    command = ['ping', param, '1', host]
+
+    return subprocess.call(command) == 0
+
+# windows implementation for ping
+# def ping(picam_ip):
+    # if using linux oimt STARTUPINFO()
     # Configure subprocess to hide the console window
-    info = subprocess.STARTUPINFO()
-    info.dwFlags |= subprocess.STARTF_USESHOWWINDOW
-    info.wShowWindow = subprocess.SW_HIDE
+    # info = subprocess.STARTUPINFO()
+    # info.dwFlags |= subprocess.STARTF_USESHOWWINDOW
+    # info.wShowWindow = subprocess.SW_HIDE
 
-    picam_status = []
-    # For each IP address in the subnet, 
-    # run the ping command with subprocess.popen interface
-    for i in range(len(picam_ip)):
-        output = subprocess.Popen(['ping', '-n', '1', '-w', '500', str(picam_ip[i])], stdout=subprocess.PIPE, startupinfo=info).communicate()[0]
-        
-        if "Destination host unreachable" in output.decode('utf-8'):
-            picam_status.append("Offline")
-        elif "Request timed out" in output.decode('utf-8'):
-            picam_status.append("Offline")
-        else:
-            picam_status.append("Online")
-    return picam_status
+    # picam_status = []
+    # # For each IP address in the subnet,
+    # # run the ping command with subprocess.popen interface
+    # for i in range(len(picam_ip)):
+    #     output = subprocess.Popen(['ping', '-n', '1', '-w', '500', str(picam_ip[i])], stdout=subprocess.PIPE).communicate()[0]
+    #     # should have startupinfo = info in output remove cause linux
+    #     if "Destination host unreachable" in output.decode('utf-8'):
+    #         picam_status.append("Offline")
+    #     elif "Request timed out" in output.decode('utf-8'):
+    #         picam_status.append("Offline")
+    #     else:
+    #         picam_status.append("Online")
+    # return picam_status
 
-def ping_single(picam_ip):
-    # Configure subprocess to hide the console window
-    info = subprocess.STARTUPINFO()
-    info.dwFlags |= subprocess.STARTF_USESHOWWINDOW
-    info.wShowWindow = subprocess.SW_HIDE
-
-    # For each IP address in the subnet, 
-    # run the ping command with subprocess.popen interface
-    output = subprocess.Popen(['ping', '-n', '1', '-w', '500', str(picam_ip)], stdout=subprocess.PIPE, startupinfo=info).communicate()[0]
-    
-    if "Destination host unreachable" in output.decode('utf-8'):
-        return "Offline"
-    elif "Request timed out" in output.decode('utf-8'):
-        return "Offline"
-    else:
-        return "Online"
+# def ping_single(picam_ip):
+#     # Configure subprocess to hide the console window
+#     # info = subprocess.STARTUPINFO()
+#     # info.dwFlags |= subprocess.STARTF_USESHOWWINDOW
+#     # info.wShowWindow = subprocess.SW_HIDE
+#
+#     # For each IP address in the subnet,
+#     # run the ping command with subprocess.popen interface
+#     output = subprocess.Popen(['ping', '-n', '1', '-w', '500', str(picam_ip)], stdout=subprocess.PIPE).communicate()[0]
+#     # , startupinfo=info
+#     if "Destination host unreachable" in output.decode('utf-8'):
+#         return "Offline"
+#     elif "Request timed out" in output.decode('utf-8'):
+#         return "Offline"
+#     else:
+#         return "Online"
 
 def random_rotation(img):
     angle = [45, 90, -45, -90, 0, 180]
@@ -196,7 +213,7 @@ def main():
                 im_hsv = cv2.cvtColor(im_hsv, cv2.COLOR_HSV2RGB)
 
                 st.image(im_hsv)
-       
+
             elif enhance_type == 'Rotation':
                 rotation_rate = st.sidebar.slider("Degrees",0,360,90)
                 new_img = np.array(our_image.convert('RGB'))
@@ -227,7 +244,7 @@ def main():
                 scale_matrix = cv2.getRotationMatrix2D(angle=0, center=center, scale=scale)
                 img_scale = cv2.warpAffine(src=new_img, M=scale_matrix, dsize=(w, h), borderValue=(114, 114, 114))
                 st.text("Scale Image")
-                st.image(img_scale)     
+                st.image(img_scale)
 
             elif enhance_type == 'Shear':
                 shear_rate = st.sidebar.slider("Degrees",-20,20,5)
@@ -266,11 +283,16 @@ def main():
         pi1, pi2, pi3, pi4 = st.columns(4)
 
         if st.button("Check"):
-            picam_status = ping(PICAM_IP) 
+            picam_status = []
+            for i in PICAM_IP:
+                if ping(i) == True:
+                    picam_status.append("Online")
+                else:
+                    picam_status.append("Offline")
             with pi1:
                 for i in range(5):
                     st.markdown(f"picam{i+1}")
-            
+
             with pi2:
                 for i in range(5):
                     st.markdown(f"{picam_status[i]}")
@@ -281,15 +303,19 @@ def main():
 
             with pi4:
                 for i in range(5):
-                    st.markdown(f"{picam_status[i+5]}")     
+                    st.markdown(f"{picam_status[i+5]}")
 
         picam_list = ["picam1", "picam2", "picam3", "picam4", "picam5", "picam6", "picam7", "picam8", "picam9", "picam10"]
-        
+
         st.subheader("Select Picam")
         picam_choice = st.selectbox("", picam_list)
 
         picam = int(picam_choice[-1])-1
-        check_picam = ping_single(PICAM_IP[picam])
+        check_picam_ping = ping(PICAM_IP[picam])
+        if check_picam_ping == True:
+            check_picam = "Online"
+        else:
+            check_picam = "Offline"
         st.text(f"{picam_choice}, url = http://{PICAM_IP[picam]}/index.html, status: {check_picam}")
 
         if check_picam == 'Online':
