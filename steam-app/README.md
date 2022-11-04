@@ -1,9 +1,8 @@
 <h1 align="center">App</h1>
 
 ## :dizzy: How to use?
-<ol>
-    <li>Clone this repo</li>
-    `cd <USER>/steam-app`
-    `pip install -r requirements.txt`
-    `streamlit run app.py`
-</ol>
+
+1. Clone this repo
+2. `cd <USER>/STEAMxD/steam-app`
+3. `pip install -r requirements.txt`
+4. `streamlit run app.py`
