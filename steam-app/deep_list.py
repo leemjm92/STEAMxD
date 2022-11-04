@@ -307,8 +307,9 @@ def detect(weights=ROOT / 'yolov5s.pt',  # model.pt path(s)
             # print(f"len of detected labels: {len(mapped_)}")
             # print(f"{mapped_}")
             # print(f"det from enumerate pred: {det}")
-            print(f"bbox_xyxy: {bbox_xyxy}")
-            print(f"identities: {identities}")
+            # bbox_xyxy error need to fix
+            # print(f"bbox_xyxy: {bbox_xyxy}")
+            # print(f"identities: {identities}")
             if len(mapped_) > 0 and frame_num%12 == 0:
                 cv2.imwrite(f"{save_dir}/half_sec_frames/frame_{frame_num}.png",im0)
 
