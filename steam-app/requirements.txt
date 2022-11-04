@@ -12,6 +12,7 @@ torch>=1.9.1
 torchvision>=0.10.1
 tqdm>=4.41.0
 
+
 # Logging -------------------------------------
 tensorboard>=2.4.1
 
@@ -24,3 +25,5 @@ thop
 # Extras -----------
 streamlit
 psutil
+easydict
+ipython
