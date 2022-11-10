@@ -1,3 +1,6 @@
+# directory
+steam-app/runs/
+
 # files
 *.ipynb_checkpoints
 *.png
