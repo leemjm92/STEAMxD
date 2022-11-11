@@ -75,3 +75,53 @@ def mixup_image(img, alpha=0.5):
     img2 = img2.resize(new_resize)
     img3 = Image.blend(img1, img2, alpha)    
     return img3
+
+def hsv_image(img, hue_rate, saturation_rate, value_rate):
+    new_img = np.array(img.convert('RGB'))
+
+    hue, sat, val = cv2.split(cv2.cvtColor(new_img, cv2.COLOR_RGB2HSV))
+    dtype = new_img.dtype
+    x = np.arange(0, 256, dtype=new_img.dtype)
+    lut_hue = ((x * hue_rate) % 180).astype(dtype)
+    lut_sat = np.clip(x * saturation_rate, 0, 255).astype(dtype)
+    lut_val = np.clip(x * value_rate, 0, 255).astype(dtype)
+
+    im_hsv = cv2.merge((cv2.LUT(hue, lut_hue), cv2.LUT(sat, lut_sat), cv2.LUT(val, lut_val)))
+    im_hsv = cv2.cvtColor(im_hsv, cv2.COLOR_HSV2RGB)
+
+    return im_hsv
+
+def rotation_image(img, rotation_rate):
+    new_img = np.array(our_image.convert('RGB'))
+    w, h = our_image.size
+    M = cv2.getRotationMatrix2D((int(w/2), int(h/2)), rotation_rate, 1)
+    img_rot = cv2.warpAffine(new_img, M, (w, h), borderValue=(114, 114, 114))
+    return img_rot
+
+def translate_image(img, translate_rate):
+    new_img = np.array(our_image.convert('RGB'))
+    w, h = our_image.size
+    # center = (w/2, h/2)
+    T = np.eye(3)
+    T[0, 2] = translate_rate * w
+    T[1, 2] = translate_rate * h
+    img_translate = cv2.warpAffine(src=new_img, M=T[:2], dsize=(w, h), borderValue=(114, 114, 114))
+    return img_translate
+
+def scale_image(img, scale_rate):
+    new_img = np.array(our_image.convert('RGB'))
+    w, h = our_image.size
+    center = (w/2, h/2)
+    scale = 1 + scale_rate
+    scale_matrix = cv2.getRotationMatrix2D(angle=0, center=center, scale=scale)
+    img_scale = cv2.warpAffine(src=new_img, M=scale_matrix, dsize=(w, h), borderValue=(114, 114, 114))
+    return img_scale
+
+def shear_image(img, shear_rate):
+    new_img = np.array(our_image.convert('RGB'))
+    w, h = our_image.size
+    S = np.eye(3)
+    S[0, 1] = math.tan(shear_rate * math.pi / 180)  # x shear (deg)
+    S[1, 0] = math.tan(shear_rate * math.pi / 180)  # y shear (deg)
+    img_shear = cv2.warpAffine(src=new_img, M=S[:2], dsize=(w, h), borderValue=(114, 114, 114))
+    return img_shear

@@ -112,6 +112,40 @@ def hsv_image(img, hue_rate, saturation_rate, value_rate):
 
     return im_hsv
 
+def rotation_image(img, rotation_rate):
+    new_img = np.array(our_image.convert('RGB'))
+    w, h = our_image.size
+    M = cv2.getRotationMatrix2D((int(w/2), int(h/2)), rotation_rate, 1)
+    img_rot = cv2.warpAffine(new_img, M, (w, h), borderValue=(114, 114, 114))
+    return img_rot
+
+def translate_image(img, translate_rate):
+    new_img = np.array(our_image.convert('RGB'))
+    w, h = our_image.size
+    # center = (w/2, h/2)
+    T = np.eye(3)
+    T[0, 2] = translate_rate * w
+    T[1, 2] = translate_rate * h
+    img_translate = cv2.warpAffine(src=new_img, M=T[:2], dsize=(w, h), borderValue=(114, 114, 114))
+    return img_translate
+
+def scale_image(img, scale_rate):
+    new_img = np.array(our_image.convert('RGB'))
+    w, h = our_image.size
+    center = (w/2, h/2)
+    scale = 1 + scale_rate
+    scale_matrix = cv2.getRotationMatrix2D(angle=0, center=center, scale=scale)
+    img_scale = cv2.warpAffine(src=new_img, M=scale_matrix, dsize=(w, h), borderValue=(114, 114, 114))
+    return img_scale
+
+def shear_image(img, shear_rate):
+    new_img = np.array(our_image.convert('RGB'))
+    w, h = our_image.size
+    S = np.eye(3)
+    S[0, 1] = math.tan(shear_rate * math.pi / 180)  # x shear (deg)
+    S[1, 0] = math.tan(shear_rate * math.pi / 180)  # y shear (deg)
+    img_shear = cv2.warpAffine(src=new_img, M=S[:2], dsize=(w, h), borderValue=(114, 114, 114))
+    return img_shear
 
 def main():
     st.title("STEAMxD")
@@ -143,44 +177,25 @@ def main():
 
             elif enhance_type == 'Rotation':
                 rotation_rate = st.sidebar.slider("Degrees",0,360,90)
-                new_img = np.array(our_image.convert('RGB'))
-                w, h = our_image.size
-                M = cv2.getRotationMatrix2D((int(w/2), int(h/2)), rotation_rate, 1)
-                img_rot = cv2.warpAffine(new_img, M, (w, h), borderValue=(114, 114, 114))
+                img_rot = rotation_image(img=our_image, rotation_rate=rotation_rate)
                 st.text("Rotated Image")
                 st.image(img_rot)
 
             elif enhance_type == 'Translate':
                 translate_rate = st.sidebar.slider("Scale",-1.0,1.0,0.5)
-                new_img = np.array(our_image.convert('RGB'))
-                w, h = our_image.size
-                # center = (w/2, h/2)
-                T = np.eye(3)
-                T[0, 2] = translate_rate * w
-                T[1, 2] = translate_rate * h
-                img_translate = cv2.warpAffine(src=new_img, M=T[:2], dsize=(w, h), borderValue=(114, 114, 114))
+                img_translate = translate_image(img=our_image, translate_rate=translate_rate)
                 st.text("Translate Image")
                 st.image(img_translate)
 
             elif enhance_type == 'Scale':
                 scale_rate = st.sidebar.slider("Scale",-1.0,1.0,0.5)
-                new_img = np.array(our_image.convert('RGB'))
-                w, h = our_image.size
-                center = (w/2, h/2)
-                scale = 1 + scale_rate
-                scale_matrix = cv2.getRotationMatrix2D(angle=0, center=center, scale=scale)
-                img_scale = cv2.warpAffine(src=new_img, M=scale_matrix, dsize=(w, h), borderValue=(114, 114, 114))
+                img_scale = scale_image(img=our_image, scale_rate=scale_rate)
                 st.text("Scale Image")
                 st.image(img_scale)
 
             elif enhance_type == 'Shear':
                 shear_rate = st.sidebar.slider("Degrees",-20,20,5)
-                new_img = np.array(our_image.convert('RGB'))
-                w, h = our_image.size
-                S = np.eye(3)
-                S[0, 1] = math.tan(shear_rate * math.pi / 180)  # x shear (deg)
-                S[1, 0] = math.tan(shear_rate * math.pi / 180)  # y shear (deg)
-                img_shear = cv2.warpAffine(src=new_img, M=S[:2], dsize=(w, h), borderValue=(114, 114, 114))
+                img_shear = shear_image(img=our_image, shear_rate=shear_rate)
                 st.text("Shear Image")
                 st.image(img_shear)
 
