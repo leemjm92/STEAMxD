@@ -113,15 +113,15 @@ def hsv_image(img, hue_rate, saturation_rate, value_rate):
     return im_hsv
 
 def rotation_image(img, rotation_rate):
-    new_img = np.array(our_image.convert('RGB'))
-    w, h = our_image.size
+    new_img = np.array(img.convert('RGB'))
+    w, h = img.size
     M = cv2.getRotationMatrix2D((int(w/2), int(h/2)), rotation_rate, 1)
     img_rot = cv2.warpAffine(new_img, M, (w, h), borderValue=(114, 114, 114))
     return img_rot
 
 def translate_image(img, translate_rate):
-    new_img = np.array(our_image.convert('RGB'))
-    w, h = our_image.size
+    new_img = np.array(img.convert('RGB'))
+    w, h = img.size
     # center = (w/2, h/2)
     T = np.eye(3)
     T[0, 2] = translate_rate * w
@@ -130,8 +130,8 @@ def translate_image(img, translate_rate):
     return img_translate
 
 def scale_image(img, scale_rate):
-    new_img = np.array(our_image.convert('RGB'))
-    w, h = our_image.size
+    new_img = np.array(img.convert('RGB'))
+    w, h = img.size
     center = (w/2, h/2)
     scale = 1 + scale_rate
     scale_matrix = cv2.getRotationMatrix2D(angle=0, center=center, scale=scale)
@@ -139,8 +139,8 @@ def scale_image(img, scale_rate):
     return img_scale
 
 def shear_image(img, shear_rate):
-    new_img = np.array(our_image.convert('RGB'))
-    w, h = our_image.size
+    new_img = np.array(img.convert('RGB'))
+    w, h = img.size
     S = np.eye(3)
     S[0, 1] = math.tan(shear_rate * math.pi / 180)  # x shear (deg)
     S[1, 0] = math.tan(shear_rate * math.pi / 180)  # y shear (deg)
@@ -169,9 +169,9 @@ def main():
                 st.image(our_image)
 
             elif enhance_type == 'HSV':
-                hue_rate = st.sidebar.slider("Hue",0.0,1.0,0.5)
-                saturation_rate = st.sidebar.slider("Saturation",0.0,1.0,0.5)
-                value_rate = st.sidebar.slider("Lightness",0.0,1.0,0.8)
+                hue_rate = st.sidebar.slider("Hue",0.0,1.0,1.0)
+                saturation_rate = st.sidebar.slider("Saturation",0.0,1.0,1.0)
+                value_rate = st.sidebar.slider("Lightness",0.0,1.0,1.0)
                 im_hsv = hsv_image(img=our_image, hue_rate=hue_rate, saturation_rate=saturation_rate, value_rate=value_rate)
                 st.image(im_hsv)
 
@@ -182,13 +182,13 @@ def main():
                 st.image(img_rot)
 
             elif enhance_type == 'Translate':
-                translate_rate = st.sidebar.slider("Scale",-1.0,1.0,0.5)
+                translate_rate = st.sidebar.slider("Scale",-1.0,1.0,0.2)
                 img_translate = translate_image(img=our_image, translate_rate=translate_rate)
                 st.text("Translate Image")
                 st.image(img_translate)
 
             elif enhance_type == 'Scale':
-                scale_rate = st.sidebar.slider("Scale",-1.0,1.0,0.5)
+                scale_rate = st.sidebar.slider("Scale",-1.0,1.0,-0.4)
                 img_scale = scale_image(img=our_image, scale_rate=scale_rate)
                 st.text("Scale Image")
                 st.image(img_scale)
@@ -212,7 +212,6 @@ def main():
                 st.image(img_fliplr)
 
             elif enhance_type == 'Mosaic':
-                # new_img = np.array(our_image.convert('RGB'))
                 img_mosaic = mosaic_image(img=our_image, scale_range=SCALE_RANGE)
                 st.image(img_mosaic)
 
