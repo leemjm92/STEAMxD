@@ -89,10 +89,13 @@ def mosaic_image(img, scale_range, filter_scale=0.):
     return output_img
 
 def mixup_image(img, alpha=0.5):
+    usr_path = os.getcwd().split("/")[0:-1]
+    usr_path = "/".join(usr_path)
+    img_path = os.path.join(usr_path, "data/images/lights1.jpg")
     new_resize = (256, 256)
     img1 = img
     img1 = img1.resize(new_resize)
-    img2 = Image.open("/home/sutd-roar/STEAMxD/data/images/human1.jpg")
+    img2 = Image.open(img_path)
     img2 = img2.resize(new_resize)
     img3 = Image.blend(img1, img2, alpha)    
     return img3
