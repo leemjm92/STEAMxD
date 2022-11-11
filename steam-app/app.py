@@ -49,19 +49,6 @@ def random_rotation(img):
     img_rot = cv2.warpAffine(img, M, (w, h), borderValue=(114, 114, 114))
     return img_rot
 
-def mosaic_image(img, scale_range, filter_scale=0.):
-    w, h = img.size
-    img = np.array(img.convert('RGB'))
-    output_img = np.zeros([h, w, 3], dtype=np.uint8)
-    scale_x = scale_range[0] + random.random() * (scale_range[1] - scale_range[0])
-    scale_y = scale_range[0] + random.random() * (scale_range[1] - scale_range[0])
-    divid_point_x = int(scale_x * w)
-    divid_point_y = int(scale_y * h)
-
-    # top-left
-    img1 = cv2.resize(img, (divid_point_x, divid_point_y))
-    img1 = random_rotation(img1)
-    output_img[:divid_point_y, :divid_point_x, :] = img1
 def random_rotation(img):
     angle = [45, 90, -45, -90, 0, 180]
     rotation_rate = random.choice(angle)
@@ -100,22 +87,6 @@ def mosaic_image(img, scale_range, filter_scale=0.):
     output_img[divid_point_y:h, divid_point_x:w, :] = img4
 
     return output_img
-    # top-right
-    img2 = cv2.resize(img, (w - divid_point_x, divid_point_y))
-    img2 = random_rotation(img2)
-    output_img[:divid_point_y, divid_point_x:w, :] = img2
-
-    # btm-left
-    img3 = cv2.resize(img, (divid_point_x, h - divid_point_y))
-    img3 = random_rotation(img3)
-    output_img[divid_point_y:h, :divid_point_x, :] = img3
-
-    # btm-right
-    img4 = cv2.resize(img, (w - divid_point_x, h - divid_point_y))
-    img4 = random_rotation(img4)
-    output_img[divid_point_y:h, divid_point_x:w, :] = img4
-
-    return output_img
 
 def mixup_image(img, alpha=0.5):
     new_resize = (256, 256)
@@ -123,9 +94,24 @@ def mixup_image(img, alpha=0.5):
     img1 = img1.resize(new_resize)
     img2 = Image.open("/home/sutd-roar/STEAMxD/data/images/human1.jpg")
     img2 = img2.resize(new_resize)
-    img3 = Image.blend(img1, img2, alpha)
-    
+    img3 = Image.blend(img1, img2, alpha)    
     return img3
+
+def hsv_image(img, hue_rate, saturation_rate, value_rate):
+    new_img = np.array(img.convert('RGB'))
+
+    hue, sat, val = cv2.split(cv2.cvtColor(new_img, cv2.COLOR_RGB2HSV))
+    dtype = new_img.dtype
+    x = np.arange(0, 256, dtype=new_img.dtype)
+    lut_hue = ((x * hue_rate) % 180).astype(dtype)
+    lut_sat = np.clip(x * saturation_rate, 0, 255).astype(dtype)
+    lut_val = np.clip(x * value_rate, 0, 255).astype(dtype)
+
+    im_hsv = cv2.merge((cv2.LUT(hue, lut_hue), cv2.LUT(sat, lut_sat), cv2.LUT(val, lut_val)))
+    im_hsv = cv2.cvtColor(im_hsv, cv2.COLOR_HSV2RGB)
+
+    return im_hsv
+
 
 def main():
     st.title("STEAMxD")
@@ -152,18 +138,7 @@ def main():
                 hue_rate = st.sidebar.slider("Hue",0.0,1.0,0.5)
                 saturation_rate = st.sidebar.slider("Saturation",0.0,1.0,0.5)
                 value_rate = st.sidebar.slider("Lightness",0.0,1.0,0.8)
-                new_img = np.array(our_image.convert('RGB'))
-
-                hue, sat, val = cv2.split(cv2.cvtColor(new_img, cv2.COLOR_RGB2HSV))
-                dtype = new_img.dtype
-                x = np.arange(0, 256, dtype=new_img.dtype)
-                lut_hue = ((x * hue_rate) % 180).astype(dtype)
-                lut_sat = np.clip(x * saturation_rate, 0, 255).astype(dtype)
-                lut_val = np.clip(x * value_rate, 0, 255).astype(dtype)
-
-                im_hsv = cv2.merge((cv2.LUT(hue, lut_hue), cv2.LUT(sat, lut_sat), cv2.LUT(val, lut_val)))
-                im_hsv = cv2.cvtColor(im_hsv, cv2.COLOR_HSV2RGB)
-
+                im_hsv = hsv_image(img=our_image, hue_rate=hue_rate, saturation_rate=saturation_rate, value_rate=value_rate)
                 st.image(im_hsv)
 
             elif enhance_type == 'Rotation':
@@ -325,7 +300,7 @@ def main():
                 detect(source=video.name, stframe=stframe, kpi1_text=kpi1_text, kpi2_text=kpi2_text, kpi3_text=kpi3_text,\
                        js1_text=js1_text, js2_text=js2_text, js3_text=js3_text,\
                        # class portion
-                       classes=[0,3,6,67],\
+                       classes=[0,3,6,67]   ,\
                        conf_thres=float(conf_thres), nosave=nosave, display_labels=display_labels,\
                        conf_thres_drift = float(conf_thres_drift), save_poor_frame__= save_poor_frame__,\
                        inf_ov_1_text=inf_ov_1_text, inf_ov_2_text=inf_ov_2_text, inf_ov_3_text=inf_ov_3_text, inf_ov_4_text=inf_ov_4_text,\
