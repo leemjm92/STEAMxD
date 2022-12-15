@@ -17,7 +17,7 @@ The terrain consist of 4 zones, the 4 zones are then further split into 2 indoor
 **to insert a top view image of the 4 zones**
 
 <p align="center">
-    <hx>Outdoor&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; Indoor</hx>
+    <hx>Outdoor&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; Indoor</hx>
 </p>
 
 <p align="center">
@@ -27,7 +27,7 @@ The terrain consist of 4 zones, the 4 zones are then further split into 2 indoor
 </p>
 
 <p align="center">
-    <hx>Outdoor (Top Half)&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; Indoor (Top Half)</hx>
+    <hx>Outdoor (Top Half)&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; Indoor (Top Half)</hx>
 </p>
 
 <p align="center">
@@ -37,7 +37,7 @@ The terrain consist of 4 zones, the 4 zones are then further split into 2 indoor
 </p>
 
 <p align="center">
-    <hx>Outdoor (Bottom Half)&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; Indoor (Bottom Half)</hx>
+    <hx>Outdoor (Bottom Half)&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; Indoor (Bottom Half)</hx>
 </p>
 
 
