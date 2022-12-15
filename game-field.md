@@ -17,15 +17,27 @@ The terrain consist of 4 zones, the 4 zones are then further split into 2 indoor
 **to insert a top view image of the 4 zones**
 
 <p align="center">
+    <hx>Outdoor                                       Indoor</hx>
+</p>
+
+<p align="center">
     <img src="/.github/images/outdoor_top_topview.jpeg" width="30%" title='testing1' />
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <img src="/.github/images/indoor_top_topview.jpg" width="30%" title='testing2' />
 </p>
 
 <p align="center">
+    <hx>Outdoor (Top Half)                                 Indoor (Top Half)</hx>
+</p>
+
+<p align="center">
     <img src="/.github/images/outdoor_btm_topview.jpg" width="30%" title='testing1' />
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <img src="/.github/images/indoor_btm_topview.jpg" width="30%" title='testing2' />
+</p>
+
+<p align="center">
+    <hx>Outdoor (Bottom Half)                             Indoor (Bottom Half)</hx>
 </p>
 
 
