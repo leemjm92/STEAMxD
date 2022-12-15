@@ -21,9 +21,9 @@ The terrain consist of 4 zones, the 4 zones are then further split into 2 indoor
 </p>
 
 <p align="center">
-    <img src="/.github/images/outdoor_top_topview.jpeg" width="30%" title='testing1' />
+    <img src="/.github/images/outdoor_top_topview.jpeg" width="45%" title='Outdoor (Top Half)' />
 <!--     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
-    <img src="/.github/images/indoor_top_topview.jpg" width="30%" title='testing2' />
+    <img src="/.github/images/indoor_top_topview.jpg" width="45%" title='Indoor (Top Half)' />
 </p>
 
 <p align="center">
@@ -31,9 +31,9 @@ The terrain consist of 4 zones, the 4 zones are then further split into 2 indoor
 </p>
 
 <p align="center">
-    <img src="/.github/images/outdoor_btm_topview.jpg" width="30%" title='testing1' />
+    <img src="/.github/images/outdoor_btm_topview.jpg" width="45%" title='Outdoor (Bottom Half)' />
 <!--     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
-    <img src="/.github/images/indoor_btm_topview.jpg" width="30%" title='testing2' />
+    <img src="/.github/images/indoor_btm_topview.jpg" width="45%" title='Indoor (Bottom Half)' />
 </p>
 
 <p align="center">
