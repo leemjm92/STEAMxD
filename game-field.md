@@ -111,7 +111,7 @@ top view  |  front view   | side view  (images)
 </p>
 
 <p align="center">
-    <hx>Top View&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; Isometric View</hx>
+    <hx>Top View&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; &nbsp; &nbsp; &nbsp; Isometric View</hx>
 </p>
 
 <p align="center">
@@ -121,7 +121,7 @@ top view  |  front view   | side view  (images)
 </p>
 
 <p align="center">
-    <hx>Front View&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; &nbsp; Right View</hx>
+    <hx>Front View&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; &nbsp; &nbsp; Right View</hx>
 </p>
 
 ### Top Half <a id="chapter-3-1"></a>
