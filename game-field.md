@@ -148,7 +148,7 @@ top view  |  front view   | side view  (images)
 
 ## Indoor Zones <a id=chapter2></a>
 
-### Zone 3 <a id="chapter-2-1"></a>
+### Bottom Half <a id="chapter-2-1"></a>
 
 <p align="center">
     <img src="/.github/images/outdoor_top_topview.jpeg" width="45%" title='Top View' />
@@ -170,7 +170,7 @@ top view  |  front view   | side view  (images)
     <hx>Front View&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; &nbsp; &nbsp; Right View</hx>
 </p>
 
-### Zone 4 <a id="chapter-2-1"></a>
+### Top Half <a id="chapter-2-1"></a>
 
 <p align="center">
     <img src="/.github/images/outdoor_top_topview.jpeg" width="45%" title='Top View' />
