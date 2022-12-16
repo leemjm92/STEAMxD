@@ -17,7 +17,7 @@ The terrain consist of 4 zones, the 4 zones are then further split into 2 indoor
 **to insert a top view image of the 4 zones**
 
 <p align="center">
-    <hx>Outdoor&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; Indoor</hx>
+    <hx>Outdoor&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; Indoor</hx>
 </p>
 
 <p align="center">
@@ -27,7 +27,7 @@ The terrain consist of 4 zones, the 4 zones are then further split into 2 indoor
 </p>
 
 <p align="center">
-    <hx>Outdoor (Top Half)&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; Indoor (Top Half)</hx>
+    <hx>Outdoor (Top Half)&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; Indoor (Top Half)</hx>
 </p>
 
 <p align="center">
@@ -37,7 +37,7 @@ The terrain consist of 4 zones, the 4 zones are then further split into 2 indoor
 </p>
 
 <p align="center">
-    <hx>Outdoor (Bottom Half)&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; &nbsp; Indoor (Bottom Half)</hx>
+    <hx>Outdoor (Bottom Half)&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; &nbsp; Indoor (Bottom Half)</hx>
 </p>
 
 
@@ -51,39 +51,53 @@ top view  |  front view   | side view  (images)
 --->
 
 <p align="center">
-    <hx>Testing</hx>
+    <hx>Humans</hx>
 </p>
 
 <p align="center">
-    <img src="/.github/images/human1.jpg" width="20%" title='testing1' />
+    <img src="/.github/images/adult0001.jpg" width="20%" title='testing1' />
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="/.github/images/human1.jpg" width="20%" title='testing2' />
+    <img src="/.github/images/adult0002.jpg" width="20%" title='testing2' />
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="/.github/images/human1.jpg" width="20%" title='testing3' />
+    <img src="/.github/images/child0001.jpg" width="20%" title='testing3' />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="/.github/images/child0002.jpg" width="20%" title='testing3' />
 </p>
 
 <p align="center">
-    <font size="3">Hello</font>
+    <font size="3">Animals (Rabbits)</font>
 </p>
 
 <p align="center">   
-    <img src="/.github/images/human1.jpg" width="20%" title='testing1' />
+    <img src="/.github/images/rabbit0001.jpg" width="35%" title='placeholder' />
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="/.github/images/human1.jpg" width="20%" title='testing2' />
+    <img src="/.github/images/rabbit0002.jpg" width="35%" title='placeholder' />
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="/.github/images/human1.jpg" width="20%" title='testing3' />
+    <img src="/.github/images/rabbit0003.jpg" width="35%" title='placeholder' />
 </p>
 
 <p align="center">
-    <font size="5">World</font>
+    <font size="5">Animals (Dogs)</font>
 </p>
 
 <p align="center">
-    <img src="/.github/images/human1.jpg" width="20%" title='testing1' />
+    <img src="/.github/images/dog0001.jpg" width="20%" title='placeholder' />
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="/.github/images/human1.jpg" width="20%" title='testing2' />
+    <img src="/.github/images/dog0002.jpg" width="20%" title='placeholder' />
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="/.github/images/human1.jpg" width="20%" title='testing3' />
+    <img src="/.github/images/dog0003.jpg" width="20%" title='placeholder' />
+</p>
+
+<p align="center">
+    <font size="5">Animals (Cats)</font>
+</p>
+
+<p align="center">
+    <img src="/.github/images/cat0001.jpg" width="20%" title='placeholder' />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="/.github/images/cat0002.jpg" width="20%" title='placeholder' />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="/.github/images/cat0003.jpg" width="20%" title='placeholder' />
 </p>
 
 ## Outdoor Zones <a id=chapter3></a>
