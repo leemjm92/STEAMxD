@@ -111,7 +111,7 @@ top view  |  front view   | side view  (images)
 </p>
 
 <p align="center">
-    <hx>Top View&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; &nbsp; &nbsp; &nbsp; Isometric View</hx>
+    <hx>Top View&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; &nbsp; Isometric View</hx>
 </p>
 
 <p align="center">
@@ -127,11 +127,23 @@ top view  |  front view   | side view  (images)
 ### Top Half <a id="chapter-3-1"></a>
 
 <p align="center">
-    <img src="/.github/images/terrain-prototype-01-topview.jpg" width="20%" title='testing1' />
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="/.github/images/terrain-prototype-01-topview.jpg" width="20%" title='testing2' />
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="/.github/images/terrain-prototype-01-topview.jpg" width="20%" title='testing3' />
+    <img src="/.github/images/outdoor_top_topview.jpeg" width="45%" title='Top View' />
+<!--     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+    <img src="/.github/images/indoor_top_topview.jpg" width="45%" title='Isometric View' />
+</p>
+
+<p align="center">
+    <hx>Top View&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; &nbsp; Isometric View</hx>
+</p>
+
+<p align="center">
+    <img src="/.github/images/outdoor_btm_topview.jpg" width="45%" title='Outdoor (Bottom Half)' />
+<!--     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+    <img src="/.github/images/indoor_btm_topview.jpg" width="45%" title='Indoor (Bottom Half)' />
+</p>
+
+<p align="center">
+    <hx>Front View&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; &nbsp; &nbsp; Right View</hx>
 </p>
 
 ## Indoor Zones <a id=chapter2></a>
@@ -139,19 +151,43 @@ top view  |  front view   | side view  (images)
 ### Zone 3 <a id="chapter-2-1"></a>
 
 <p align="center">
-    <img src="/.github/images/terrain-prototype-01-topview.jpg" width="20%" title='testing1' />
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="/.github/images/terrain-prototype-01-topview.jpg" width="20%" title='testing2' />
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="/.github/images/terrain-prototype-01-topview.jpg" width="20%" title='testing3' />
+    <img src="/.github/images/outdoor_top_topview.jpeg" width="45%" title='Top View' />
+<!--     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+    <img src="/.github/images/indoor_top_topview.jpg" width="45%" title='Isometric View' />
+</p>
+
+<p align="center">
+    <hx>Top View&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; &nbsp; Isometric View</hx>
+</p>
+
+<p align="center">
+    <img src="/.github/images/outdoor_btm_topview.jpg" width="45%" title='Outdoor (Bottom Half)' />
+<!--     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+    <img src="/.github/images/indoor_btm_topview.jpg" width="45%" title='Indoor (Bottom Half)' />
+</p>
+
+<p align="center">
+    <hx>Front View&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; &nbsp; &nbsp; Right View</hx>
 </p>
 
 ### Zone 4 <a id="chapter-2-1"></a>
 
 <p align="center">
-    <img src="/.github/images/terrain-prototype-01-topview.jpg" width="20%" title='testing1' />
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="/.github/images/terrain-prototype-01-topview.jpg" width="20%" title='testing2' />
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="/.github/images/terrain-prototype-01-topview.jpg" width="20%" title='testing3' />
+    <img src="/.github/images/outdoor_top_topview.jpeg" width="45%" title='Top View' />
+<!--     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+    <img src="/.github/images/indoor_top_topview.jpg" width="45%" title='Isometric View' />
+</p>
+
+<p align="center">
+    <hx>Top View&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; &nbsp; Isometric View</hx>
+</p>
+
+<p align="center">
+    <img src="/.github/images/outdoor_btm_topview.jpg" width="45%" title='Outdoor (Bottom Half)' />
+<!--     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+    <img src="/.github/images/indoor_btm_topview.jpg" width="45%" title='Indoor (Bottom Half)' />
+</p>
+
+<p align="center">
+    <hx>Front View&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; &nbsp; &nbsp; Right View</hx>
 </p>
