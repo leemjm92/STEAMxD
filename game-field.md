@@ -17,7 +17,7 @@ The terrain consist of 4 zones, the 4 zones are then further split into 2 indoor
 **to insert a top view image of the 4 zones**
 
 <p align="center">
-    <hx>Outdoor&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; Indoor</hx>
+    <hx><b>Outdoor&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; Indoor</b></hx>
 </p>
 
 <p align="center">
@@ -51,10 +51,6 @@ top view  |  front view   | side view  (images)
 --->
 
 <p align="center">
-    <hx>Humans</hx>
-</p>
-
-<p align="center">
     <img src="/.github/images/adult0001.jpg" width="20%" title='testing1' />
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <img src="/.github/images/adult0002.jpg" width="20%" title='testing2' />
@@ -65,19 +61,19 @@ top view  |  front view   | side view  (images)
 </p>
 
 <p align="center">
-    <font size="3">Animals (Rabbits)</font>
+    <hx>Humans</hx>
 </p>
 
 <p align="center">   
-    <img src="/.github/images/rabbit0001.jpg" width="35%" title='placeholder' />
+    <img src="/.github/images/rabbit0001.jpg" width="20%" title='placeholder' />
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="/.github/images/rabbit0002.jpg" width="35%" title='placeholder' />
+    <img src="/.github/images/rabbit0002.jpg" width="20%" title='placeholder' />
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="/.github/images/rabbit0003.jpg" width="35%" title='placeholder' />
+    <img src="/.github/images/rabbit0003.jpg" width="20%" title='placeholder' />
 </p>
 
 <p align="center">
-    <font size="5">Animals (Dogs)</font>
+    <font size="3">Animals (Rabbits)</font>
 </p>
 
 <p align="center">
@@ -89,7 +85,7 @@ top view  |  front view   | side view  (images)
 </p>
 
 <p align="center">
-    <font size="5">Animals (Cats)</font>
+    <font size="5">Animals (Dogs)</font>
 </p>
 
 <p align="center">
@@ -100,19 +96,35 @@ top view  |  front view   | side view  (images)
     <img src="/.github/images/cat0003.jpg" width="20%" title='placeholder' />
 </p>
 
-## Outdoor Zones <a id=chapter3></a>
-
-### Zone 1 <a id="chapter-3-1"></a>
-
 <p align="center">
-    <img src="/.github/images/terrain-prototype-01-topview.jpg" width="20%" title='testing1' />
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="/.github/images/terrain-prototype-01-topview.jpg" width="20%" title='testing2' />
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="/.github/images/terrain-prototype-01-topview.jpg" width="20%" title='testing3' />
+    <font size="5">Animals (Cats)</font>
 </p>
 
-### Zone 2 <a id="chapter-3-1"></a>
+## Outdoor Zones <a id=chapter3></a>
+
+### Bottom Half <a id="chapter-3-1"></a>
+
+<p align="center">
+    <img src="/.github/images/outdoor_top_topview.jpeg" width="45%" title='Top View' />
+<!--     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+    <img src="/.github/images/indoor_top_topview.jpg" width="45%" title='Isometric View' />
+</p>
+
+<p align="center">
+    <hx>Top View&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; Isometric View</hx>
+</p>
+
+<p align="center">
+    <img src="/.github/images/outdoor_btm_topview.jpg" width="45%" title='Outdoor (Bottom Half)' />
+<!--     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+    <img src="/.github/images/indoor_btm_topview.jpg" width="45%" title='Indoor (Bottom Half)' />
+</p>
+
+<p align="center">
+    <hx>Front View&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; &nbsp; Right View</hx>
+</p>
+
+### Top Half <a id="chapter-3-1"></a>
 
 <p align="center">
     <img src="/.github/images/terrain-prototype-01-topview.jpg" width="20%" title='testing1' />
