@@ -1,6 +1,9 @@
 # Raspberry Pi FPV Camera Set-up
 credit: [PyShine](https://pyshine.com) and [Sam Westby Tech](https://www.youtube.com/watch?v=QzVYnG-WaM4)
 
+## Overview
+This was the initial camera set-up but due to chip shortage an alternative setup is used. The guide is still relevant if anyone wishes to setup a FPV camera using RPI in the future.
+
 ## Hardware
 1. Raspberry Pi (Zero W/Zero 2 W/3A/3B/4A/4B)
 2. MicroSD card 16gb and above
