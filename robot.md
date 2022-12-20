@@ -39,7 +39,7 @@ Two tools is provided in the kit. A screwdriver that can be used for cross head 
 </p>
 
 ## Bolts, nuts and etc
-
+<--- ---> 
 <p align="center">
     <img src="/.github/images/bolt0001.jpg" width="20%" title='Insert' />
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -63,9 +63,9 @@ Two tools is provided in the kit. A screwdriver that can be used for cross head 
 </p>
 
 <p align="center">
-    <img src="/.github/images/bolt0007.jpg" width="20%" title='M4 Nut Flat' />
+    <img src="/.github/images/bolt0009.jpg" width="20%" title='M4 Nut Flat' />
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="/.github/images/bolt0008.jpg" width="20%" title='M4 Nut w/ext' />
+    <img src="/.github/images/bolt0010.jpg" width="20%" title='M4 Nut w/ext' />
 </p>
 
 ## Assembly <a id="chapter2"></a>
@@ -75,7 +75,27 @@ Follow the instructions of the mBot instruction set from page 19 onwards. After 
 ### Assembly of mBot ranger and camera module
 
 <p align="center">
-    <img src="/.github/images/picam-step4.jpg" width="45%" title='step 4' />
+    <img src="/.github/images/ranger0001.jpg" width="45%" title='step 4' />
+</p>
+
+<p align="center">
+    <img src="/.github/images/ranger0002.jpg" width="45%" title='step 4' />
+</p>
+
+<p align="center">
+    <img src="/.github/images/ranger0003.jpg" width="45%" title='step 4' />
+</p>
+
+<p align="center">
+    <img src="/.github/images/ranger0004.jpg" width="45%" title='step 4' />
+</p>
+
+<p align="center">
+    <img src="/.github/images/ranger0005.jpg" width="45%" title='step 4' />
+</p>
+
+<p align="center">
+    <img src="/.github/images/ranger0006.jpg" width="45%" title='step 4' />
 </p>
 
 ### How to assemble the picamera module  <a id="chapter2-1"></a>
