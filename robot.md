@@ -23,7 +23,7 @@ This markdown will be updated with the instructions on how to assemble the robot
 Two tools is provided in the kit. A screwdriver that can be used for cross head and allen key head for bolts. A spanner for nuts. 
 
 <p align="center">
-    <img src="/.github/images/tools0001.jpg" width="70%" title='screwdriver' />
+    <img src="/.github/images/tools0001.jpg" width="85%" title='screwdriver' />
 </p>
 
 <p align="center">
@@ -31,7 +31,7 @@ Two tools is provided in the kit. A screwdriver that can be used for cross head 
 </p>
 
 <p align="center">
-    <img src="/.github/images/tools0002.jpg" width="60%" title='screwdriver' />
+    <img src="/.github/images/tools0002.jpg" width="90%" title='screwdriver' />
 </p>
 
 <p align="center">
