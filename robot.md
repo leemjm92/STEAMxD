@@ -75,23 +75,32 @@ Follow the instructions of the mBot instruction set from page 19 onwards. After 
 ### Assembly of mBot ranger and camera module
 
 <p align="center">
-    <img src="/.github/images/ranger0001.jpg" width="90%" title='step 4' />
+    <img src="/.github/images/ranger0001.jpg" width="90%" title='step 1-3' />
 </p>
 
 <p align="center">
-    <img src="/.github/images/ranger0002.jpg" width="90%" title='step 4' />
+    <img src="/.github/images/ranger0002.jpg" width="90%" title='step 4-7' />
 </p>
 
 <p align="center">
-    <img src="/.github/images/ranger0003.jpg" width="90%" title='step 4' />
+    <img src="/.github/images/ranger0003.jpg" width="90%" title='step 8-11' />
+</p>
+
+For steps 9 and 10 please replace with the 3D printed battery holder and the provided battery powerbank
+
+<p align="center">
+    <img src="/.github/images/ranger0003-01.jpg" width="35%" title='3D printed battery holder' />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="/.github/images/ranger0003-02.jpg" width="35%" title='Battery powerbank' />
+</p>
+
+
+<p align="center">
+    <img src="/.github/images/ranger0004.jpg" width="90%" title='step 12-15' />
 </p>
 
 <p align="center">
-    <img src="/.github/images/ranger0004.jpg" width="90%" title='step 4' />
-</p>
-
-<p align="center">
-    <img src="/.github/images/ranger0005.jpg" width="90%" title='step 4' />
+    <img src="/.github/images/ranger0005.jpg" width="90%" title='step 16-18' />
 </p>
 
 <p align="center">
