@@ -86,14 +86,15 @@ Follow the instructions of the mBot instruction set from page 19 onwards. After 
     <img src="/.github/images/ranger0003.jpg" width="90%" title='step 8-11' />
 </p>
 
-For steps 9 and 10 please replace with the 3D printed battery holder and the provided battery powerbank
+<p align="center">
+    <font size="5">For steps 9 and 10 please replace with the 3D printed battery holder and the provided battery powerbank</font>
+</p>
 
 <p align="center">
     <img src="/.github/images/ranger0003-01.jpg" width="35%" title='3D printed battery holder' />
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <img src="/.github/images/ranger0003-02.jpg" width="35%" title='Battery powerbank' />
 </p>
-
 
 <p align="center">
     <img src="/.github/images/ranger0004.jpg" width="90%" title='step 12-15' />
@@ -106,6 +107,17 @@ For steps 9 and 10 please replace with the 3D printed battery holder and the pro
 <p align="center">
     <img src="/.github/images/ranger0006.jpg" width="90%" title='step 4' />
 </p>
+
+<!--- 
+To be updated with instructions on how to assemble the esp32cam to the mBot 
+
+When ESP32Cam is powered on, wait for 10-15sec then access the image via the link in [How to access your camera stream](#chapter2-2)
+
+--->
+
+
+
+<!---
 
 ### How to assemble the picamera module  <a id="chapter2-1"></a>
 
@@ -165,7 +177,16 @@ For steps 9 and 10 please replace with the 3D printed battery holder and the pro
     <img src="/.github/images/picam-step9.jpg" width="45%" title='step 9' />
 </p>
 
-### How to access your picamera stream <a id="chapter2-2"></a>
+--->
 
-picamera1 (black housing) - [link](http://10.21.135.99:9000) \
-picamera2 (white housing) - [link](http://10.21.140.11:9000)
+### How to access your camera stream <a id="chapter2-2"></a>
+
+Group 21 (camera1) - [link](http://10.21.135.99:9000) \
+Group 22 (camera2) - [link](http://10.21.140.11:9000) \
+Group 23 (camera3) - [link]() \
+Group 24 (camera4) - [link]() \
+Group 25 (camera5) - [link]() \
+Group 26 (camera6) - [link]() \
+Group 27 (camera7) - [link]() \
+Group 28 (camera8) - [link]() \
+Group 29 (camera9) - [link]()
