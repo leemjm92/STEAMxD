@@ -18,9 +18,65 @@ Repository for STEAMxD :robot:
 
 This markdown will be updated with the instructions on how to assemble the robot along with the provided raspberry pi camera unit for the purpose of the 6 Sept demo this is not the focus.
 
+## Tools
+
+Two tools is provided in the kit. A screwdriver that can be used for cross head and allen key head for bolts. A spanner for nuts. 
+
+<p align="center">
+    <img src="/.github/images/tools0001.jpg" width="45%" title='screwdriver' />
+</p>
+
+<p align="center">
+    <font size="3">Screwdriver</font>
+</p>
+
+<p align="center">
+    <img src="/.github/images/tools0002.jpg" width="45%" title='screwdriver' />
+</p>
+
+<p align="center">
+    <font size="3">Spanner</font>
+</p>
+
+## Bolts, nuts and etc
+
+<p align="center">
+    <img src="/.github/images/bolt0001.jpg" width="20%" title='Insert' />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="/.github/images/bolt0002.jpg" width="20%" title='Spacer' />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="/.github/images/bolt0003.jpg" width="20%" title='Brass Spacer' />
+</p>
+
+<p align="center">
+    <img src="/.github/images/bolt0004.jpg" width="20%" title='M2.5 x 12mm' />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="/.github/images/bolt0005.jpg" width="20%" title='M4 x 8mm' />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="/.github/images/bolt0006.jpg" width="20%" title='M4 x 10mm' />
+</p>
+
+<p align="center">
+    <img src="/.github/images/bolt0007.jpg" width="20%" title='M4 x 14mm' />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="/.github/images/bolt0008.jpg" width="20%" title='M4 x 25mm' />
+</p>
+
+<p align="center">
+    <img src="/.github/images/bolt0007.jpg" width="20%" title='M4 Nut Flat' />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="/.github/images/bolt0008.jpg" width="20%" title='M4 Nut w/ext' />
+</p>
+
 ## Assembly <a id="chapter2"></a>
 
-Follow the instructions of the mBot instruction set from page 19 onwards. After reaching step 15 (page 23) please proceed to skip step 16 and step 17 and complete step 18. Once step 18 is completed please proceed to the next section on [How to assemble the picamera module](#chapter2-1) 
+Follow the instructions of the mBot instruction set from page 19 onwards. After reaching step 15 (page 23) please proceed to skip step 16 and step 17 and complete step 18. Once step 18 is completed please proceed to the next section on [How to assemble the picamera module](#chapter2-1)
+
+### Assembly of mBot ranger and camera module
+
+<p align="center">
+    <img src="/.github/images/picam-step4.jpg" width="45%" title='step 4' />
+</p>
 
 ### How to assemble the picamera module  <a id="chapter2-1"></a>
 
