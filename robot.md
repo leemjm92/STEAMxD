@@ -23,11 +23,11 @@ This markdown will be updated with the instructions on how to assemble the robot
 Two tools is provided in the kit. A screwdriver that can be used for cross head and allen key head for bolts. A spanner for nuts. 
 
 <p align="center">
-    <img src="/.github/images/tools0001.jpg" width="85%" title='screwdriver' />
+    <img src="/.github/images/tools0001.jpg" width="90%" title='screwdriver' />
 </p>
 
 <p align="center">
-    <font size="3">Screwdriver</font>
+    <font size="5">Screwdriver</font>
 </p>
 
 <p align="center">
@@ -35,11 +35,11 @@ Two tools is provided in the kit. A screwdriver that can be used for cross head 
 </p>
 
 <p align="center">
-    <font size="3">Spanner</font>
+    <font size="5">Spanner</font>
 </p>
 
 ## Bolts, nuts and etc
-<--- ---> 
+<!--- remember to edit the image to the same size using paint using windows ---> 
 <p align="center">
     <img src="/.github/images/bolt0001.jpg" width="20%" title='Insert' />
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -75,27 +75,27 @@ Follow the instructions of the mBot instruction set from page 19 onwards. After 
 ### Assembly of mBot ranger and camera module
 
 <p align="center">
-    <img src="/.github/images/ranger0001.jpg" width="65%" title='step 4' />
+    <img src="/.github/images/ranger0001.jpg" width="90%" title='step 4' />
 </p>
 
 <p align="center">
-    <img src="/.github/images/ranger0002.jpg" width="75%" title='step 4' />
+    <img src="/.github/images/ranger0002.jpg" width="90%" title='step 4' />
 </p>
 
 <p align="center">
-    <img src="/.github/images/ranger0003.jpg" width="45%" title='step 4' />
+    <img src="/.github/images/ranger0003.jpg" width="90%" title='step 4' />
 </p>
 
 <p align="center">
-    <img src="/.github/images/ranger0004.jpg" width="45%" title='step 4' />
+    <img src="/.github/images/ranger0004.jpg" width="90%" title='step 4' />
 </p>
 
 <p align="center">
-    <img src="/.github/images/ranger0005.jpg" width="45%" title='step 4' />
+    <img src="/.github/images/ranger0005.jpg" width="90%" title='step 4' />
 </p>
 
 <p align="center">
-    <img src="/.github/images/ranger0006.jpg" width="45%" title='step 4' />
+    <img src="/.github/images/ranger0006.jpg" width="90%" title='step 4' />
 </p>
 
 ### How to assemble the picamera module  <a id="chapter2-1"></a>
