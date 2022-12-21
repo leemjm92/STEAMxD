@@ -42,26 +42,26 @@ Two tools are provided in the kit. A screwdriver that can be used for both cross
 <!--- remember to edit the image to the same size using paint using windows ---> 
 <p align="center">
     <img src="/.github/images/bolt0001.jpg" width="20%" title='Insert' />
-    &nbsp;&nbsp;
+    &nbsp;
     <img src="/.github/images/bolt0002.jpg" width="20%" title='Spacer' />
-    &nbsp;&nbsp;
+    &nbsp;
     <img src="/.github/images/bolt0003.jpg" width="20%" title='Brass Spacer' />
-    &nbsp;&nbsp;
+    &nbsp;
     <img src="/.github/images/bolt0009.jpg" width="20%" title='M4 Nut Flat' />
-    &nbsp;&nbsp;
+    &nbsp;
     <img src="/.github/images/bolt0010.jpg" width="20%" title='M4 Nut w/ext' />
 </p>
 
 <p align="center">
-    <img src="/.github/images/bolt0004.jpg" width="20%" title='M2.5 x 12mm' />
-    &nbsp;&nbsp;
-    <img src="/.github/images/bolt0005.jpg" width="20%" title='M4 x 8mm' />
-    &nbsp;&nbsp;
-    <img src="/.github/images/bolt0006.jpg" width="20%" title='M4 x 10mm' />
-    &nbsp;&nbsp;
-    <img src="/.github/images/bolt0007.jpg" width="20%" title='M4 x 14mm' />
-    &nbsp;&nbsp;
-    <img src="/.github/images/bolt0008.jpg" width="20%" title='M4 x 25mm' />
+    <img src="/.github/images/bolt0004.jpg" width="18%" title='M2.5 x 12mm' />
+    &nbsp;
+    <img src="/.github/images/bolt0005.jpg" width="18%" title='M4 x 8mm' />
+    &nbsp;
+    <img src="/.github/images/bolt0006.jpg" width="18%" title='M4 x 10mm' />
+    &nbsp;
+    <img src="/.github/images/bolt0007.jpg" width="18%" title='M4 x 14mm' />
+    &nbsp;
+    <img src="/.github/images/bolt0008.jpg" width="18%" title='M4 x 25mm' />
 </p>
 
 ## Assembly <a id="chapter2"></a>
