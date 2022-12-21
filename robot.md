@@ -83,7 +83,7 @@ Follow the instructions of the mBot instruction set from page 19 onwards. After 
 </p>
 
 <p align="center">
-    <font size="5">For steps 9 and 10 please replace with the 3D printed battery holder and the provided battery powerbank</font>
+    <font size="5">For <b>steps 9 and 10</b> please replace with the 3D printed battery holder and the provided battery powerbank</font>
 </p>
 
 <p align="center">
