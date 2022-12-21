@@ -41,15 +41,15 @@ Two tools are provided in the kit. A screwdriver that can be used for both cross
 ## Bolts, nuts and etc
 <!--- remember to edit the image to the same size using paint using windows ---> 
 <p align="center">
-    <img src="/.github/images/bolt0001.jpg" width="19%" title='Insert' />
+    <img src="/.github/images/bolt0001.jpg" width="18%" title='Insert' />
     &nbsp;
-    <img src="/.github/images/bolt0002.jpg" width="19%" title='Spacer' />
+    <img src="/.github/images/bolt0002.jpg" width="18%" title='Spacer' />
     &nbsp;
-    <img src="/.github/images/bolt0003.jpg" width="19%" title='Brass Spacer' />
+    <img src="/.github/images/bolt0003.jpg" width="18%" title='Brass Spacer' />
     &nbsp;
-    <img src="/.github/images/bolt0009.jpg" width="19%" title='M4 Nut Flat' />
+    <img src="/.github/images/bolt0009.jpg" width="18%" title='M4 Nut Flat' />
     &nbsp;
-    <img src="/.github/images/bolt0010.jpg" width="19%" title='M4 Nut w/ext' />
+    <img src="/.github/images/bolt0010.jpg" width="18%" title='M4 Nut w/ext' />
 </p>
 
 <p align="center">
