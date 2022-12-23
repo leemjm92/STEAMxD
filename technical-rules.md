@@ -87,9 +87,9 @@ Scoring
 1. In order for a detection to be counted as succesful, the confidence score has to be above 50% (to be adjusted accordingly) and the object should be detected for a minimal of 1 second (to be adjusted accordingly).
 <!--- insert an example of the detection as picture of successful detection or should I use a video instead? --->
 2. Every unique object that the team successfully detects accurately will be awarded the corresponding points based on the table above. Below is an example for illustration purpose
-    * Example Team A successfully detects 10 out of 15 of the humans and 15 out of 18 of the animals 
-    Total possible points = $15 \times 5 + 18 \times 3 = 129$
-    Team A points = $10 \times 5 + 15 \times 3 = 95$
+    * Example Team A successfully detects 10 out of 15 of the humans and 15 out of 18 of the animals \
+    Total possible points = $15 \times 5 + 18 \times 3 = 129$ \
+    Team A points = $10 \times 5 + 15 \times 3 = 95$ \
     Score as a weightage = $95 \div 129 \times 100 = 73.64%$ 
 
 ### Achievements (20% of total score)<a id="section5-2"></a>
