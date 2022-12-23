@@ -85,15 +85,20 @@ Scoring
 <!--- | Valuables | 3      | --->
 
 1. In order for a detection to be counted as succesful, the confidence score has to be above 50% (to be adjusted accordingly) and the object should be detected for a minimal of 1 second (to be adjusted accordingly).
-<!--- insert an example of the detection as picture of successful detection or should I use a video instead? --->
+**Matt: insert an example of the detection as picture of successful detection or should I use a video instead?** --->
 2. Every unique object that the team successfully detects accurately will be awarded the corresponding points based on the table above. Below is an example for illustration purpose
     * Example Team A successfully detects 10 out of 15 of the humans and 15 out of 18 of the animals \
     Total possible points = $15 \times 5 + 18 \times 3 = 129$ \
     Team A points = $10 \times 5 + 15 \times 3 = 95$ \
-    Score as a weightage = $95 \div 129 \times 100 = 73.64%$ 
+    Score as a weightage = $95 \div 129 \times 100 = 73.64$% 
 
 ### Achievements (20% of total score)<a id="section5-2"></a>
-Achievements will test the team's ability across various domains; humanities, engineering, etc.  
+Achievements will test the team's ability across various domains; humanities, engineering, etc.
+
+
+**Matt: Should there be a limit on the number of achievements each team can achieve? 
+How much should each achieve be award this will be weight % so it should be carefully balanced with the object detection scoring or we can give slightly different weightage for different achievement (because we have to balance VIP path)** 
+--->
 
 **To be discussed an balanced with Matthew/undergrads on 4-6 Jan** 
 
