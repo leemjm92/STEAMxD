@@ -177,12 +177,14 @@ When ESP32Cam is powered on, wait for 10-15sec then access the image via the lin
 
 ### How to access your camera stream <a id="chapter2-2"></a>
 
-Group 21 (camera1) - [link](http://10.21.135.99:9000) \
-Group 22 (camera2) - [link](http://10.21.140.11:9000) \
-Group 23 (camera3) - [link]() \
-Group 24 (camera4) - [link]() \
-Group 25 (camera5) - [link]() \
-Group 26 (camera6) - [link]() \
-Group 27 (camera7) - [link]() \
-Group 28 (camera8) - [link]() \
-Group 29 (camera9) - [link]()
+Connect to WiFi under SSID: STEAMxD_2.4, for password please request it from your respective instructors 
+
+Group 21 (camera1) - [link](http://192.168.50.21/mjpeg/1) \
+Group 22 (camera2) - [link](http://192.168.50.22/mjpeg/1) \
+Group 23 (camera3) - [link](http://192.168.50.23/mjpeg/1) \
+Group 24 (camera4) - [link](http://192.168.50.24/mjpeg/1) \
+Group 25 (camera5) - [link](http://192.168.50.25/mjpeg/1) \
+Group 26 (camera6) - [link](http://192.168.50.26/mjpeg/1) \
+Group 27 (camera7) - [link](http://192.168.50.27/mjpeg/1) \
+Group 28 (camera8) - [link](http://192.168.50.28/mjpeg/1) \
+Group 29 (camera9) - [link](http://192.168.50.29/mjpeg/1)
