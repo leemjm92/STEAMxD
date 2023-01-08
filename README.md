@@ -23,3 +23,7 @@ Robotics Challenge
 ### Overview <a id="chapter1"></a>
 
 To include the overview of the competition explaining the scenario as well as the rules and time limit given.
+
+
+### Reference <a id="chapter2"></a>
+ESP32Cam: https://github.com/arkhipenko/esp32-cam-mjpeg-multiclient

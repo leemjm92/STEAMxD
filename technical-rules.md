@@ -64,27 +64,48 @@ Placeholder text
 
 
 ## Key Field Items <a id="chapter3"></a>
-![placeholder-image](terrain/design/top-view.png)  
-Humans, Pets, Valuables
+![placeholder-image](terrain/design/top-view.png)
+
+
+Humans, Animals (Rabbits, Dogs, Cats)
 
 ## Robot Requirements <a id="chapter4"></a>
 
 ## Scoring Metrics <a id="chapter5"></a>
-### Accessibility <a id="section5-1"></a>
-1. Every path set that the robot successfully navigates across will be awarded with 1 point (e.g. Successfully navigated across $6 \over 7$ path set; score $6 \over 7$ $\times 50$ = $42.86 \over 50$ points) 
 
-### Object Detection <a id="section5-2"></a>
+### Object Detection Challenge(80% of total score)<a id="section5-1"></a>
+Object detection challenge will test the team's ability to train a model that is capable of detecting humans and animals. 
+
 Scoring  
 
 | Class     | Points |
 | :-:       | :-:    |
 | Humans    | 5      |
-| Pets      | 3      |
-| Valuables | 3      |
+| Animal    | 3      |
+<!--- | Valuables | 3      | --->
 
-3. Every unique object that the team successfully detects accurately will be awarded the corresponding points based on the mode of detection (manual or AI), scoring calculation will always be upon total possible points via AI mode. Below is and example for illustration purpose
-    * Example for a successful detection of $5 \over 7$ humans, $3 \over 5$ pets and $6 \over 10$ valuables  
-    Total possible manual points = $7 \times 5 + 5 \times 3 + 10 \times 1 =  60​$  
-    Total possible AI points = $7 \times 15 + 5 \times 9 + 10 \times 3 =  180$  
-    If team chooses manual mode, score = $40 \over 180$ = $11.11 \over 50$  
-    If team chooses autonomous mode, score = $120 \over 180$ = $33.33 \over 50$
+1. In order for a detection to be counted as succesful, the confidence score has to be above 50% (to be adjusted accordingly) and the object should be detected for a minimal of 1 second (to be adjusted accordingly).
+**Matt: insert an example of the detection as picture of successful detection or should I use a video instead?** --->
+2. Every unique object that the team successfully detects accurately will be awarded the corresponding points based on the table above. Below is an example for illustration purpose
+    * Example Team A successfully detects 10 out of 15 of the humans and 15 out of 18 of the animals \
+    Total possible points = $15 \times 5 + 18 \times 3 = 129$ \
+    Team A points = $10 \times 5 + 15 \times 3 = 95$ \
+    Score as a weightage = $95 \div 129 \times 100 = 73.64$% 
+
+### Achievements (20% of total score)<a id="section5-2"></a>
+Achievements will test the team's ability across various domains; humanities, engineering, etc.
+
+
+**Matt: Should there be a limit on the number of achievements each team can achieve? 
+How much should each achieve be award this will be weight % so it should be carefully balanced with the object detection scoring or we can give slightly different weightage for different achievement (because we have to balance VIP path)** 
+--->
+
+**To be discussed an balanced with Matthew/undergrads on 4-6 Jan** 
+
+1. Saving VIP
+2. Most humans detected
+3. Most pets detected
+4. Most valuables detected
+5. Fastest time taken for path
+6. Most accurate detection model (separate into individual categories?)
+7. Most checkpoints encountered

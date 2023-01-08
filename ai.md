@@ -32,30 +32,56 @@ Specifically for the competition sake we will not be delving deeply into the var
 --->
 A baseline dataset that is labelled has been included and can be found [here](/data). This baseline dataset includes a total of 90 images, 30 from each category. Teams are required to collect more images and label them accordingly for training of the custom object detection model for the competition. 
 
-There are 3 categories, humans, valuables and lights. Each category can then be subdivided into subcategories. Below are the list of objects that will be present in the terrain of the competition. 
+There are 2 main categories, humans and pets. Pets is broken down into 3 sub-categories; rabbits, dogs and cats. <!---Each category can then be subdivided into subcategories.---> Below are the list of objects that will be present in the terrain of the competition. 
 
 <p align="center">
-    <img src="/.github/images/human1.jpg" width="200px" height="200px" title='testing1' />
-    &nbsp;&nbsp;&nbsp;
-    <img src="/.github/images/human1.jpg" width="200px" height="200px" title='testing2' />
-    &nbsp;&nbsp;&nbsp;
-    <img src="/.github/images/human1.jpg" width="200px" height="200px" title='testing3' />
+    <img src="/.github/images/adult0001.jpg" width="20%" title='testing1' />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="/.github/images/adult0002.jpg" width="20%" title='testing2' />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="/.github/images/child0001.jpg" width="20%" title='testing3' />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="/.github/images/child0002.jpg" width="20%" title='testing3' />
 </p>
 
 <p align="center">
-    <img src="/.github/images/phone1.jpg" width="200px" height="200px" title='testing1' />
-    &nbsp;&nbsp;&nbsp;
-    <img src="/.github/images/phone1.jpg" width="200px" height="200px" title='testing2' />
-    &nbsp;&nbsp;&nbsp;
-    <img src="/.github/images/phone1.jpg" width="200px" height="200px" title='testing3' />
+    <hx>Humans</hx>
+</p>
+
+<p align="center">   
+    <img src="/.github/images/rabbit0001.jpg" width="20%" title='placeholder' />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="/.github/images/rabbit0002.jpg" width="20%" title='placeholder' />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="/.github/images/rabbit0003.jpg" width="20%" title='placeholder' />
 </p>
 
 <p align="center">
-    <img src="/.github/images/lights1.jpg" width="200px" height="200px" title='testing1' />
-    &nbsp;&nbsp;&nbsp;
-    <img src="/.github/images/lights1.jpg" width="200px" height="200px" title='testing2' />
-    &nbsp;&nbsp;&nbsp;
-    <img src="/.github/images/lights1.jpg" width="200px" height="200px" title='testing3' />
+    <font size="3">Animals (Rabbits)</font>
+</p>
+
+<p align="center">
+    <img src="/.github/images/dog0001.jpg" width="20%" title='placeholder' />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="/.github/images/dog0002.jpg" width="20%" title='placeholder' />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="/.github/images/dog0003.jpg" width="20%" title='placeholder' />
+</p>
+
+<p align="center">
+    <font size="5">Animals (Dogs)</font>
+</p>
+
+<p align="center">
+    <img src="/.github/images/cat0001.jpg" width="20%" title='placeholder' />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="/.github/images/cat0002.jpg" width="20%" title='placeholder' />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="/.github/images/cat0003.jpg" width="20%" title='placeholder' />
+</p>
+
+<p align="center">
+    <font size="5">Animals (Cats)</font>
 </p>
 
 ## Labeling <a id="chapter3"></a>
