@@ -32,11 +32,10 @@ STEAMxD is a competition where undergraduate student groups would learn the basi
 4. Teachers / other teams outside the competition area attempting to communicate with teams in the competition area.
 5. Any other behaviours that the organising deem as directly/indirectly interfering with the competition or affecting other teams (e.g. use of dangerous items or inappropriate words, fighting, chasing etc.).
 
-
 ### Appeal <a id="section-2-4"></a>
 1. Upon receiving their competition results, teams should carefully check and ensure the accuracy of all information in the results slip before signing off.
 2. If any error such as miscalculation of marks or violation of the competition rules is discovered, the team can appeal to the judges within 10 minutes of receiving the results slip.
-    * All appeals must be brought forward by a student of the team, **(to be removed if no teacher)** not the teacher. 
+    * All appeals must be brought forward by a student of the team. 
 3. Within 30 minutes of submitting an appeal, the corresponding team should submit all necessary supporting evidence to the judges for consideration.
     * Any evidence that might support the team’s claim is welcomed, including but not limited to photos, videos, audios or facilitator’s testimony etc.
     * The team can request for checking the official video replays if the appeal is regarding events that occurred during the robot run.
