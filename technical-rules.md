@@ -1,10 +1,10 @@
 # :robot: Technical Rules :robot:
 
 # Table of Contents
-* [Challenge Rules](#chapter1)
+* [STEAMxD Competition 2022](#chapter1)
 * [Game Fields](#chapter2)
-    * [Technical Competition Zone 1](#section-2-1)
-    * [Technical Competition Zone 2](#section-2-2)
+    * [Technical Competition Zone (Outdoor)](#section-2-1)
+    * [Technical Competition Zone (Indoor)](#section-2-2)
     * [Technical Competition Zone 3](#section-2-3)
     * [Technical Competition Zone 4](#section-2-4)
 * [Key Field Items](#chapter3)
@@ -13,32 +13,28 @@
     * [Accessibility](#section5-1)
     * [Object Detection](#section5-2)
 
-## Challenge Rules <a id="chapter1"></a>
-Placeholder text
-Placeholder text
-Placeholder text
-Placeholder text
-Placeholder text
-Placeholder text
-Placeholder text
-Placeholder text
-Placeholder text
-Placeholder text
-Placeholder text 
+## STEAMxD Competition 2022 <a id="chapter1"></a>
+STEAMxD is a competition where undergraduate student groups would learn the basics of object detection algorithms, AI model training and ethics. They would be using robots to navigate through a game arena and making ethical decisions along the way, scoring points for determining the winner for the competition.
 
 ## Game Fields <a id="chapter2"></a>
-### Technical Competition Zone 1 <a id="section-2-1"></a>
-![placeholder-image](terrain/design/top-view.png)
+### Technical Competition Zone (Outdoor) <a id="section-2-1"></a>
+<p align="center">
+    <img src="/.github/images/outdoor_top_topview.jpeg" width="45%" title='Outdoor (Top Half)' />
+<!--     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+    <img src="/.github/images/outdoor_btm_topview.jpg" width="45%" title='Outdoor (Bottom Half)' />
+</p>
 
-
-1. All teachers and team members must be pre-registered in order to enter the venue.
-2. Each team should prepare and bring along their own spare parts, equipment, posters and laptops (if necessary). RIC will not provide any of these during the competition.
-3. No team should be sharing the same laptop or robot program. It will be deemed as cheating if any team is found to do so, and will be immediately disqualified from the RIC.
-4. If a team is found to use solutions identical to external or online resources, or solutions that are clearly designed/made by adults, an investigation will be carried out and the team will be required to justify the originality of their solutions.
+1. Each team should prepare and bring along their own spare parts, equipment, posters and laptops (if necessary). RIC will not provide any of these during the competition.
+2. No team should be sharing the same laptop or robot program. It will be deemed as cheating if any team is found to do so, and will be immediately disqualified from the RIC.
+3. If a team is found to use solutions identical to external or online resources, or solutions that are clearly designed/made by adults, an investigation will be carried out and the team will be required to justify the originality of their solutions.
     * Logbook, design drafts and/or photos of intermediate prototypes with time stamps may be requested by the organising committee to support the investigation. Hence, we encourage all teams to properly document their work, and treat it as a good learning experience.
 
-### Technical Competition Zone 2 <a id="section-2-2"></a>
-![placeholder-image](terrain/design/top-view.png)
+### Technical Competition Zone (Indoor) <a id="section-2-2"></a>
+<p align="center">
+    <img src="/.github/images/indoor_top_topview.jpg" width="45%" title='Indoor (Top Half)' />
+<!--     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+    <img src="/.github/images/indoor_btm_topview.jpg" width="45%" title='Indoor (Bottom Half)' />
+</p>
 
 1. RIC 2021 is for autonomous robots.
     * After the robot has been started (performed any action, e.g. moving, transforming, displaying etc.), the team would no longer be allowed to interfere with or control the robot’s actions (e.g. attempt to communicate with it via radio, wireless/sound control, wired control etc.).
