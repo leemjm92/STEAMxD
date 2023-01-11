@@ -105,19 +105,20 @@ Below is an example of points calculation for the hidden objective category:
 xxxxx
 
 ### Achievements (20% of total score)<a id="section5-2"></a>
-Achievements will test the team's ability across various domains; humanities, engineering, etc.
+Each achievement is worth 3% the maximum points for achievements will be capped at 20%.
 
+* Example Team A manages to get 8 achievements the maximum you can score for this component is only 20%.
+Team A points = $8 \times 3 = 24$ (capped at 20%) \
 
-**Matt: Should there be a limit on the number of achievements each team can achieve? 
-How much should each achieve be award this will be weight % so it should be carefully balanced with the object detection scoring or we can give slightly different weightage for different achievement (because we have to balance VIP path)** 
---->
-
-**To be discussed an balanced with Matthew/undergrads on 4-6 Jan** 
-
-1. Saving VIP
-2. Most humans detected
-3. Most pets detected
-4. Most valuables detected
-5. Fastest time taken for path
-6. Most accurate detection model (separate into individual categories?)
-7. Most checkpoints encountered
+1. Hidden achievement #1 (outdoor arena) 
+2. Hidden achievement #2 (indoor arena)
+3. Most humans detected 
+4. Most cats detected 
+5. Most dogs detected 
+6. Most rabbits detected 
+7. Fastest time completion per arena (outdoor/indoor)  
+8. Most accurate detection model overall (all 4 classes) 
+9. Most accurate detection model for humans 
+10. Most accurate detection model for cats 
+11. Most accurate detection model for dogs 
+12. Most accurate detection model for rabbits 
