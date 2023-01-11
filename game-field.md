@@ -15,11 +15,7 @@
 The terrain consist of 4 zones, the 4 zones are then further split into 2 indoor zones and 2 outdoor zones. Each zone is $2.5m \times 2.5m$ resulting in a total terrain of $5m \times 5m$. 
 
 <p align="center">
-    <hx><b>Outdoor&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; Indoor</b></hx>
-</p>
-
-<p align="center">
-    <hx>Outdoor (Top Half)&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; &nbsp; &nbsp; Indoor (Top Half)</hx>
+    <hx><b>Outdoor (Top Half)&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; &nbsp; &nbsp; Indoor (Top Half)</b></hx>
 </p>
 
 <p align="center">
@@ -37,7 +33,7 @@ The terrain consist of 4 zones, the 4 zones are then further split into 2 indoor
 -->
 
 <p align="center">
-    <hx>Outdoor (Bottom Half)&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; &nbsp; Indoor (Bottom Half)</hx>
+    <hx><b>Outdoor (Bottom Half)&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; &nbsp; Indoor (Bottom Half)</b></hx>
 </p>
 
 
