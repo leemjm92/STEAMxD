@@ -1,9 +1,17 @@
 # :robot: Game Field :robot:
 
+<p align="center">
+    <img src="/.github/images/steamxd-logo.jpg" width="80%"/>
+</p>
+
+<div align="center">Organised by </div> 
+<p align="center">
+    <img src="/.github/images/sutd-logo.jpg" width="18%"/>
+</p>
+
 # Table of Contents
 * [Game Field Overview](#chapter1)
 * [Game Field Objects](#chapter2)
-
 
 ## Game Field Overview <a id="chapter1"></a>
 
@@ -30,7 +38,6 @@ The terrain consist of 4 zones, the 4 zones are then further split into 2 indoor
 <p align="center">
     <hx><b>Outdoor (Bottom Half)&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; &nbsp; Indoor (Bottom Half)</b></hx>
 </p>
-
 
 ## Game Field Objects <a id=chapter2></a>
 

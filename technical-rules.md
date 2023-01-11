@@ -1,5 +1,14 @@
 # :robot: Technical Rules :robot:
 
+<p align="center">
+    <img src="/.github/images/steamxd-logo.jpg" width="80%"/>
+</p>
+
+<div align="center">Organised by </div> 
+<p align="center">
+    <img src="/.github/images/sutd-logo.jpg" width="18%"/>
+</p>
+
 # Table of Contents
 * [STEAMxD Competition 2022](#chapter1)
 * [Game Fields](#chapter2)

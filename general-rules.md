@@ -1,5 +1,14 @@
 # :robot: General Rules :robot:
 
+<p align="center">
+    <img src="/.github/images/steamxd-logo.jpg" width="80%"/>
+</p>
+
+<div align="center">Organised by </div> 
+<p align="center">
+    <img src="/.github/images/sutd-logo.jpg" width="18%"/>
+</p>
+
 # Table of Contents
 * [STEAMxD Competition 2022](#chapter1)
 * [General Rules](#chapter2)
@@ -11,14 +20,12 @@
 ## STEAMxD Competition 2022 <a id="chapter1"></a>
 STEAMxD is a competition where undergraduate student groups would learn the basics of object detection algorithms, AI model training and ethics. They would be using robots to navigate through a game arena and making ethical decisions along the way, scoring points for determining the winner for the competition. 
 
-
 ## General Rules <a id="chapter2"></a>
 
 ### Fundamentals <a id="section-2-1"></a>
 1. No team should be sharing the same laptop or robot program. It will be deemed as cheating if any team is found to do so, and will be immediately disqualified from the STEAMxD.
 2. If a team is found to use identical model/solution for the object detection component, an investigation will be carried out and the team will be required to justify the originality of their model/solution.
     * Images, labels, model files, logs and/or photos of intermediate prototype with time stamps may be requested by the organising committee to support the investigation. Hence, we encourage all teams to properly document their work, and treat it as a good learning experience.
-
 
 ### Venue <a id="section-2-2"></a>
 1. There are in total 2 important areas in the venue: the Competition Area and Preparation Area.

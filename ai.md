@@ -1,5 +1,13 @@
 # :robot: AI Object Detection :robot:
 
+<p align="center">
+    <img src="/.github/images/steamxd-logo.jpg" width="80%"/>
+</p>
+
+<div align="center">Organised by </div> 
+<p align="center">
+    <img src="/.github/images/sutd-logo.jpg" width="18%"/>
+</p>
 
 # Table of Contents
 * [Overview](#chapter1)
