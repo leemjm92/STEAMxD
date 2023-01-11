@@ -2,15 +2,12 @@
 
 ## AI Rescue Operation Challenge 2023
 
-<p align="left">
-    <img src="/.github/images/steamxd-logo.jpg" width="100%"/>
+<p align="center">
+    <img src="/.github/images/steamxd-logo.jpg" width="80%"/>
 </p>
 
-Organised by
+Organised by ![sutd-logo](/.github/images/sutd-logo.jpg)
 
-<p align="left">
-    <img src="/.github/images/sutd-logo.jpg" width="50%"/>
-</p>
 
 <p align="center">
     <img src="/.github/images/ai-image2.png" width="45%" title='tank robot with building rubbles. cyberpunk, steampunk, ultra detail.' />
