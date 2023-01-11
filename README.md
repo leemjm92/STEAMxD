@@ -8,7 +8,7 @@
 
 <div align="center">Organised by </div> 
 <p align="center">
-    <img src="/.github/images/sutd-logo.jpg" width="10%"/>
+    <img src="/.github/images/sutd-logo.jpg" width="18%"/>
 </p>
 
 <p align="center">
