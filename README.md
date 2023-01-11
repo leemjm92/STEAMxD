@@ -51,8 +51,8 @@ There will be a total of 2 different arenas, outdoor and indoor, for which you w
 
 
 ### Reference <a id="chapter2"></a>
-ESP32Cam: https://github.com/arkhipenko/esp32-cam-mjpeg-multiclient
-yolov5: https://github.com/ultralytics/yolov5
-roboflow: https://roboflow.com/
-Google's foundational course: https://developers.google.com/machine-learning/intro-to-ml
+ESP32Cam: https://github.com/arkhipenko/esp32-cam-mjpeg-multiclient \
+yolov5: https://github.com/ultralytics/yolov5 \
+roboflow: https://roboflow.com/ \
+Google's foundational course: https://developers.google.com/machine-learning/intro-to-ml \
 3Blue1Brown: [YouTube](https://www.youtube.com/watch?v=aircAruvnKk) [Supplementary Notes](https://www.3blue1brown.com/lessons/neural-networks)
