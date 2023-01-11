@@ -6,19 +6,17 @@ Repository for STEAMxD :robot:
 # Table of Contents
 * [Overview](#chapter1)
 * [Assembly](#chapter2)
-    * [How to assemble the picamera module](#chapter2-1)
-    * [How to access your picamera stream](#chapter2-2)
-* [Technical Rules](technical-rules.md)
-* [Terrain](terrain.md)
-* [Robot](robot.md)
-* [AI](ai.md)
-
+    * [Tools](#chapter2-1)
+    * [Bolts, nuts and etc](#chapter2-2)    
+    * [Assembly of mBot ranger](#chapter2-3)
 
 ## Overview <a id="chapter1"></a>
 
 This markdown will be updated with the instructions on how to assemble the robot along with the provided raspberry pi camera unit for the purpose of the 6 Sept demo this is not the focus.
 
-## Tools
+## Assembly <a id="chapter2"></a>
+
+### Tools <a id="chapter2-1"></a>
 
 Two tools are provided in the kit. A screwdriver that can be used for both cross head bolts and allen key head bolts. A spanner for nuts. 
 
@@ -38,7 +36,7 @@ Two tools are provided in the kit. A screwdriver that can be used for both cross
     <font size="5">Spanner</font>
 </p>
 
-## Bolts, nuts and etc
+### Bolts, nuts and etc <a id="chapter2-2"></a>
 <!--- remember to edit the image to the same size using paint using windows ---> 
 <p align="center">
     <img src="/.github/images/bolt0001.jpg" width="18%" title='Insert' />
@@ -64,11 +62,7 @@ Two tools are provided in the kit. A screwdriver that can be used for both cross
     <img src="/.github/images/bolt0008.jpg" width="18%" title='M4 x 25mm' />
 </p>
 
-## Assembly <a id="chapter2"></a>
-
-Follow the instructions of the mBot instruction set from page 19 onwards. After reaching step 15 (page 23) please proceed to skip step 16 and step 17 and complete step 18. Once step 18 is completed please proceed to the next section on [How to assemble the picamera module](#chapter2-1)
-
-### Assembly of mBot ranger and camera module
+### Assembly of mBot ranger
 
 <p align="center">
     <img src="/.github/images/ranger0001.jpg" width="90%" title='step 1-3' />
