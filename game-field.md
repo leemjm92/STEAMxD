@@ -1,16 +1,11 @@
 # :robot: Game Field :robot:
 
 # Table of Contents
-* [Overview](#chapter1)
+* [Game Field Overview](#chapter1)
 * [Game Field Objects](#chapter2)
-* [Outdoor Zones](#chapter3)
-    * [Zone 1](#section-3-1)
-    * [Zone 2](#section-3-2)
-* [Indoor Zones](#chapter4)
-    * [Zone 3](#section-4-1)
-    * [Zone 4](#section-4-1)
 
-## Overview <a id="chapter1"></a>
+
+## Game Field Overview <a id="chapter1"></a>
 
 The terrain consist of 4 zones, the 4 zones are then further split into 2 indoor zones and 2 outdoor zones. Each zone is $2.5m \times 2.5m$ resulting in a total terrain of $5m \times 5m$. 
 
