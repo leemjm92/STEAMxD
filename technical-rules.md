@@ -59,32 +59,19 @@ Scoring
 | Class     | Points |
 | :-:       | :-:    |
 | Humans    | 5      |
-| Animal    | 3      |
+| Animals (Cats, Dogs, Rabbits) | 3      |
 <!--- | Valuables | 3      | --->
 
-1. In order for a detection to be counted as succesful, the confidence score has to be above 50% (to be adjusted accordingly) and the object should be detected for a minimal of 1 second (to be adjusted accordingly).
-**Matt: insert an example of the detection as picture of successful detection or should I use a video instead?** --->
-2. Every unique object that the team successfully detects accurately will be awarded the corresponding points based on the table above. Below is an example for illustration purpose
-    * Example Team A successfully detects 10 out of 15 of the humans and 15 out of 18 of the animals \
+1. For a detection to be counted as successful, the confidence score must be above 30% and the object should be detected for a minimal of 1 second.
+2. Every unique object that the team successfully detects accurately will be awarded the corresponding points based on the table above.  Below is an example for illustration purpose. 
+    * __Example 1__: Team A successfully detects 15 out of 15 of the humans and 18 out of 18 of the animals \
+    Total possible points = $15 \times 5 + 18 \times 3 = 129$ \
+    Team A points = $15 \times 5 + 18 \times 3 = 129$ \
+    Score as a weightage = $129 \div 129 \times 100 = 80$% 
+    * __Example 2__: Team B successfully detects 10 out of 15 of the humans and 15 out of 18 of the animals \
     Total possible points = $15 \times 5 + 18 \times 3 = 129$ \
     Team A points = $10 \times 5 + 15 \times 3 = 95$ \
-    Score as a weightage = $95 \div 129 \times 100 = 73.64$% 
-
-Scoring is split into 2 categories: object detection and hidden objectives. 
-
-Object detection will take up a weightage of 80% while the hidden objectives will take up a weightage of 20% 
-
-Under the object detection category, a successful ‘rescue’ is accomplished when you’ve correctly identified the ‘civilians’/’pets’ for a minimum of 1 second. 
-
-For each successful ‘civilians’ ‘rescue’, 5 points is award. For each successful ‘pets’ ‘rescue’ 3 points is award.  
-
-Below is an example of points calculation for object detection category: 
-xxxxx
-
-Under the hidden objective category, teams that can successfully complete the hidden objectives will be awarded points up to a maximum weightage of 20%. 
-
-Below is an example of points calculation for the hidden objective category: 
-xxxxx
+    Score as a weightage = $95 \div 129 \times 80 = 58.9$% 
 
 ### Achievements (20% of total score)<a id="section5-2"></a>
 Each achievement is worth 3% the maximum points for achievements will be capped at 20%.
