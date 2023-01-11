@@ -3,13 +3,13 @@
 ## AI Rescue Operation Challenge 2023
 
 <p align="left">
-    <img src="/.github/images/steamxd-logo.jpg" width="125%"/>
+    <img src="/.github/images/steamxd-logo.jpg" width="100%"/>
 </p>
 
 Organised by
 
 <p align="left">
-    <img src="/.github/images/sutd-logo.jpg" width="125%"/>
+    <img src="/.github/images/sutd-logo.jpg" width="50%"/>
 </p>
 
 <p align="center">
