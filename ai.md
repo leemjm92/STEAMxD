@@ -7,7 +7,7 @@
 * [Labeling](#chapter3)
 * [Training the custom object detection model](#chapter4)
 * [Tips](#chapter5)
-* [Reference](#chapter6)
+* [Further Learning Resources](#chapter6)
 
 ## Overview <a id="chapter1"></a>
 
@@ -95,10 +95,6 @@ https://user-images.githubusercontent.com/65292018/188316871-39b920eb-b4fd-414b-
 
 The Google Colab notebook with the relevant instructions can be obtained [here](custom-yolov5-object-detection.ipynb). The notebook contains step by step instructions on how to do data augmentation on your labelled custom dataset, train your custom model with your custom dataset and evaluate your custom model.
 
-**SUTD Undergrads**
-Since this is still currently a private repo the access is linked to your github account. To use the notebook via colab please access this [link](https://colab.research.google.com/github/) tick the check mark **Include private repo** then login and allow access to google colab you can then navigate to the repo and select the notebook to test it out.
-
-
 ## Tips <a id="chapter5"></a>
 
 Some tips for best training results can be found in the [original repository](https://github.com/ultralytics/yolov5/wiki/Tips-for-Best-Training-Results). 
@@ -111,23 +107,18 @@ Some tips for best training results can be found in the [original repository](ht
 -->
 
 
-## Reference <a id="chapter6"></a>
+## Further Learning Resources <a id="chapter6"></a>
 
-## Further Learning <a id="chapter7"></a>
+https://github.com/aladdinpersson/Machine-Learning-Collection \
+https://github.com/zwang4/awesome-machine-learning-in-compilers \
+https://github.com/exajobs/machine-learning-collection \
+https://github.com/microsoft/machine-learning-collection \
+https://github.com/ZuzooVn/machine-learning-for-software-engineers \
+https://github.com/eugeneyan/applied-ml \
+https://github.com/ChristosChristofidis/awesome-deep-learning \
+https://github.com/academic/awesome-datascience \
 
-https://github.com/aladdinpersson/Machine-Learning-Collection
-https://github.com/zwang4/awesome-machine-learning-in-compilers
-https://github.com/exajobs/machine-learning-collection
-https://github.com/microsoft/machine-learning-collection
-https://github.com/ZuzooVn/machine-learning-for-software-engineers
-https://github.com/eugeneyan/applied-ml
-https://github.com/ChristosChristofidis/awesome-deep-learning
-https://github.com/academic/awesome-datascience
-
-books:
-add Ian book link
-d2l.ai madewithml.com
-
-
-
-
+Books:
+https://www.deeplearningbook.org/ \
+https://d2l.ai/ \
+https://madewithml.com/
