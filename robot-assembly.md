@@ -1,4 +1,4 @@
-# :robot: STEAMxD :robot:
+# :robot: Robot Assembly :robot:
 
 <p align="center">
     <img src="/.github/images/steamxd-logo.jpg" width="80%"/>
