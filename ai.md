@@ -116,9 +116,9 @@ https://github.com/microsoft/machine-learning-collection \
 https://github.com/ZuzooVn/machine-learning-for-software-engineers \
 https://github.com/eugeneyan/applied-ml \
 https://github.com/ChristosChristofidis/awesome-deep-learning \
-https://github.com/academic/awesome-datascience \
+https://github.com/academic/awesome-datascience 
 
-Books:
+Books: \
 https://www.deeplearningbook.org/ \
 https://d2l.ai/ \
 https://madewithml.com/
