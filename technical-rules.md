@@ -3,10 +3,8 @@
 # Table of Contents
 * [STEAMxD Competition 2022](#chapter1)
 * [Game Fields](#chapter2)
-    * [Technical Competition Zone (Outdoor)](#section-2-1)
-    * [Technical Competition Zone (Indoor)](#section-2-2)
-    * [Technical Competition Zone 3](#section-2-3)
-    * [Technical Competition Zone 4](#section-2-4)
+    * [Competition Zone (Outdoor)](#section-2-1)
+    * [Competition Zone (Indoor)](#section-2-2)
 * [Key Field Items](#chapter3)
 * [Robot Requirements](#chapter4)
 * [Scoring Metrics](#chapter5)
@@ -36,10 +34,6 @@ STEAMxD is a competition where undergraduate student groups would learn the basi
 ## Key Field Items <a id="chapter3"></a>
 
 <p align="center">
-    <hx><b>Human&emsp; &emsp; &emsp; &emsp; &emsp; &emsp;Rabbit&emsp; &emsp; &emsp; &emsp; &emsp; &emsp;Dog&emsp; &emsp; &emsp; &emsp; &emsp; &emsp;Cat</b></hx>
-</p>
-
-<p align="center">
     <img src="/.github/images/adult0001.jpg" width="20%" title='testing1' />
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <img src="/.github/images/rabbit0001.jpg" width="20%" title='placeholder' />
@@ -49,6 +43,9 @@ STEAMxD is a competition where undergraduate student groups would learn the basi
     <img src="/.github/images/cat0001.jpg" width="20%" title='placeholder' />
 </p>
 
+<p align="center">
+    <hx><b>Human&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;Rabbit&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;Dog&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;Cat</b></hx>
+</p>
 
 ## Robot Requirements <a id="chapter4"></a>
 1. Each team should prepare and bring along their own spare parts, equipment, posters and laptops (if necessary). RIC will not provide any of these during the competition.
@@ -63,7 +60,7 @@ STEAMxD is a competition where undergraduate student groups would learn the basi
 
 ## Scoring Metrics <a id="chapter5"></a>
 
-### Object Detection Challenge(80% of total score)<a id="section5-1"></a>
+### Object Detection Challenge (80% of total score)<a id="section5-1"></a>
 Object detection challenge will test the team's ability to train a model that is capable of detecting humans and animals. 
 
 Scoring  
@@ -81,6 +78,22 @@ Scoring
     Total possible points = $15 \times 5 + 18 \times 3 = 129$ \
     Team A points = $10 \times 5 + 15 \times 3 = 95$ \
     Score as a weightage = $95 \div 129 \times 100 = 73.64$% 
+
+Scoring is split into 2 categories: object detection and hidden objectives. 
+
+Object detection will take up a weightage of 80% while the hidden objectives will take up a weightage of 20% 
+
+Under the object detection category, a successful ‘rescue’ is accomplished when you’ve correctly identified the ‘civilians’/’pets’ for a minimum of 1 second. 
+
+For each successful ‘civilians’ ‘rescue’, 5 points is award. For each successful ‘pets’ ‘rescue’ 3 points is award.  
+
+Below is an example of points calculation for object detection category: 
+xxxxx
+
+Under the hidden objective category, teams that can successfully complete the hidden objectives will be awarded points up to a maximum weightage of 20%. 
+
+Below is an example of points calculation for the hidden objective category: 
+xxxxx
 
 ### Achievements (20% of total score)<a id="section5-2"></a>
 Achievements will test the team's ability across various domains; humanities, engineering, etc.
