@@ -6,7 +6,10 @@
     <img src="/.github/images/steamxd-logo.jpg" width="80%"/>
 </p>
 
-<div align="center">Organised by </div> ![sutd-logo](/.github/images/sutd-logo.jpg)
+<div align="center">Organised by </div> 
+<p align="center">
+    <img src="/.github/images/sutd-logo.jpg" width="45%"/>
+</p>
 
 <p align="center">
     <img src="/.github/images/ai-image2.png" width="45%" title='tank robot with building rubbles. cyberpunk, steampunk, ultra detail.' />
