@@ -26,7 +26,7 @@
 * [General Rules](general-rules.md)
 * [Technical Rules](technical-rules.md)
 * [Game Field](game-field.md)
-* [Robot Assembly](robot-assembly.md)
+* [Robot Assembly](robot.md)
 * [AI](ai.md)
 * [Raspberry Pi FPV Camera](rpi-setup.md)
 
