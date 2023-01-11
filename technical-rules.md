@@ -107,7 +107,7 @@ xxxxx
 ### Achievements (20% of total score)<a id="section5-2"></a>
 Each achievement is worth 3% the maximum points for achievements will be capped at 20%.
 
-* Example Team A manages to get 8 achievements the maximum you can score for this component is only 20%.
+* Example Team A manages to get 8 achievements the maximum you can score for this component is only 20%. \
 Team A points = $8 \times 3 = 24$ (capped at 20%) \
 
 1. Hidden achievement #1 (outdoor arena) 
