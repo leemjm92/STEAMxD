@@ -26,4 +26,8 @@ To include the overview of the competition explaining the scenario as well as th
 
 
 ### Reference <a id="chapter2"></a>
-ESP32Cam: https://github.com/arkhipenko/esp32-cam-mjpeg-multiclient
+ESP32Cam: https://github.com/arkhipenko/esp32-cam-mjpeg-multiclient\
+yolov5: https://github.com/ultralytics/yolov5\
+roboflow: https://roboflow.com/\
+Google's foundational course: https://developers.google.com/machine-learning/intro-to-ml\
+3Blue1Brown: [YouTube](https://www.youtube.com/watch?v=aircAruvnKk) [Supplementary Notes](https://www.3blue1brown.com/lessons/neural-networks)\ 
