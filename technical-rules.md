@@ -15,7 +15,6 @@
     * [Competition Zone (Outdoor)](#section-2-1)
     * [Competition Zone (Indoor)](#section-2-2)
 * [Key Field Items](#chapter3)
-* [Robot Requirements](#chapter4)
 * [Scoring Metrics](#chapter5)
     * [Accessibility](#section5-1)
     * [Object Detection](#section5-2)
@@ -26,18 +25,12 @@ STEAMxD is a competition where undergraduate student groups would learn the basi
 ## Game Fields <a id="chapter2"></a>
 ### Competition Zone (Outdoor) <a id="section-2-1"></a>
 <p align="center">
-    <img src="/.github/images/outdoor_top_topview.jpeg" width="45%" title='Outdoor (Top Half)' />
-</p>
-<p align="center">
-    <img src="/.github/images/outdoor_btm_topview.jpg" width="45%" title='Outdoor (Bottom Half)' />
+    <img src="/.github/images/outdoor-arena.jpg" width="55%" title='Outdoor Arena' />
 </p>
 
 ### Competition Zone (Indoor) <a id="section-2-2"></a>
 <p align="center">
-    <img src="/.github/images/indoor_top_topview.jpg" width="45%" title='Indoor (Top Half)' />
-</p>
-<p align="center">
-    <img src="/.github/images/indoor_btm_topview.jpg" width="45%" title='Indoor (Bottom Half)' />
+    <img src="/.github/images/indoor-arena.jpg" width="55%" title='Indoor Arena' />
 </p>
 
 ## Key Field Items <a id="chapter3"></a>
@@ -55,17 +48,6 @@ STEAMxD is a competition where undergraduate student groups would learn the basi
 <p align="center">
     <hx><b>Human&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;Rabbit&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;Dog&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;Cat</b></hx>
 </p>
-
-## Robot Requirements <a id="chapter4"></a>
-1. Each team should prepare and bring along their own spare parts, equipment, posters and laptops (if necessary). RIC will not provide any of these during the competition.
-2. No team should be sharing the same laptop or robot program. It will be deemed as cheating if any team is found to do so, and will be immediately disqualified from the RIC.
-3. If a team is found to use solutions identical to external or online resources, or solutions that are clearly designed/made by adults, an investigation will be carried out and the team will be required to justify the originality of their solutions.
-    * Logbook, design drafts and/or photos of intermediate prototypes with time stamps may be requested by the organising committee to support the investigation. Hence, we encourage all teams to properly document their work, and treat it as a good learning experience.
-    
-1. RIC 2021 is for autonomous robots.
-    * After the robot has been started (performed any action, e.g. moving, transforming, displaying etc.), the team would no longer be allowed to interfere with or control the robot’s actions (e.g. attempt to communicate with it via radio, wireless/sound control, wired control etc.).
-    * The robot must be able to stop by itself, instead of being manually stopped by the team (such as via pressing a button, grabbing the robot etc.).
-2. There is no limitation on the brand of hardware/software used. We encourage all participating teams to explore diverse options (even building your own ones!) and adopt the solution they deem to be most suitable for the RIC.
 
 ## Scoring Metrics <a id="chapter5"></a>
 
@@ -108,7 +90,7 @@ xxxxx
 Each achievement is worth 3% the maximum points for achievements will be capped at 20%.
 
 * Example Team A manages to get 8 achievements the maximum you can score for this component is only 20%. \
-Team A points = $8 \times 3 = 24$ (capped at 20%) \
+Team A points = $8 \times 3 = 24$ (capped at 20%)
 
 1. Hidden achievement #1 (outdoor arena) 
 2. Hidden achievement #2 (indoor arena)
