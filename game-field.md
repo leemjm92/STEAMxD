@@ -15,7 +15,7 @@
 
 ## Game Field Overview <a id="chapter1"></a>
 
-The terrain consist of 4 zones, the 4 zones are then further split into 2 indoor zones and 2 outdoor zones. Each zone is $2.5m \times 2.5m$ resulting in a total terrain of $5m \times 5m$. 
+The terrain consists of 4 zones(outdoor bottom, outdoor top, indoor bottom, indoor top) the 4 zones are then further split into outdoor arena and indoor arena. Each zone is $2.5m \times 2.5m$ resulting in 2 arenas of $2.5 \times 5m$. 
 
 <p align="center">
     <hx><b>Outdoor (Top Half)&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; &nbsp; &nbsp; Indoor (Top Half)</b></hx>
@@ -41,7 +41,7 @@ The terrain consist of 4 zones, the 4 zones are then further split into 2 indoor
 
 ## Game Field Objects <a id=chapter2></a>
 
-**to include the different field objects**
+Here are some samples of the objects that will be present in the game field.
 
 <!---
             object title
