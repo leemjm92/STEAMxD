@@ -79,10 +79,6 @@ Two tools are provided in the kit. A screwdriver that can be used for both cross
 </p>
 
 <p align="center">
-    <img src="/.github/images/ranger0003.jpg" width="90%" title='step 8-11' />
-</p>
-
-<p align="center">
     <font size="5">For <b>steps 9 and 10</b> please replace with the 3D printed battery holder and the provided battery powerbank</font>
 </p>
 
@@ -90,6 +86,18 @@ Two tools are provided in the kit. A screwdriver that can be used for both cross
     <img src="/.github/images/ranger0003-01.jpg" width="35%" title='3D printed battery holder' />
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <img src="/.github/images/ranger0003-02.jpg" width="35%" title='Battery powerbank' />
+</p>
+
+<p align="center">
+    <img src="/.github/images/ranger0003.jpg" width="90%" title='step 8-11' />
+</p>
+
+<p align="center">
+    <font size="5">For <b>steps 11</b> please ensure that the battery holder is place in this orientation as seen in the picture below</font>
+</p>
+
+<p align="center">
+    <img src="/.github/images/ranger0003-03.jpg" width="90%" title='step 11' />
 </p>
 
 <p align="center">
@@ -102,6 +110,91 @@ Two tools are provided in the kit. A screwdriver that can be used for both cross
 
 <p align="center">
     <img src="/.github/images/ranger0006.jpg" width="90%" title='step 4' />
+</p>
+
+### Assembly of ESP32Cam
+
+<p align="center">
+    <img src="/.github/images/cam0001.jpg" width="90%" title='overview' />
+</p>
+
+<p align="center">
+    <font size="5">Listed above are the tools required for assembly of the camera module. You will need $5 \times$ M4 Nut Flat and $5 \times$ M4 x 14mm, the spanner and screwdriver, as well as the components given in the ziplock bag and the camera links that you've 3D printed on Day 2</font>
+</p>
+
+<p align="center">
+    <img src="/.github/images/cam0002.jpg" width="90%" title='step 1' />
+</p>
+
+<p align="center">
+    <img src="/.github/images/cam0002-001.jpg" width="90%" title='step 1' />
+</p>
+
+<p align="center">
+    <font size="5">Attach the 1st linkage to the plate as seen in the images above</font>
+</p>
+
+<p align="center">
+    <img src="/.github/images/cam0003.jpg" width="90%" title='step 2' />
+</p>
+
+<p align="center">
+    <img src="/.github/images/cam0003-001.jpg" width="90%" title='step 2' />
+</p>
+
+<p align="center">
+    <font size="5">Attach the 2nd linkage to the 1st linkage as seen in the images above</font>
+</p>
+
+<p align="center">
+    <img src="/.github/images/cam0004.jpg" width="90%" title='step 3' />
+</p>
+
+<p align="center">
+    <img src="/.github/images/cam0004-001.jpg" width="90%" title='step 3' />
+</p>
+
+<p align="center">
+    <font size="5">Attach the 3rd linkage to the 2nd linkage as seen in the images above</font>
+</p>
+
+<p align="center">
+    <img src="/.github/images/cam0005.jpg" width="30%" title='step 4' />
+    <img src="/.github/images/cam0005-001.jpg" width="30%" title='step 4' />
+    <img src="/.github/images/cam0005-002.jpg" width="30%" title='step 4' />
+</p>
+
+<p align="center">
+    <font size="5">Place the ESP32Cam into the camera case and then attach the back plate on</font>
+</p>
+
+<p align="center">
+    <img src="/.github/images/cam0004-001.jpg" width="45%" title='step 5' />
+    <img src="/.github/images/cam0005-002.jpg" width="45%" title='step 5' />
+</p>
+
+<p align="center">
+    <img src="/.github/images/cam0006.jpg" width="90%" title='step 5' />
+</p>
+
+<p align="center">
+    <font size="5">Attach the ESP32Cam module to the linkages</font>
+</p>
+
+<p align="center">
+    <img src="/.github/images/cam0007.jpg" width="90%" title='step 6' />
+</p>
+
+<p align="center">
+    <font size="5">Attach full camera module to the mBot Range as seen above</font>
+</p>
+
+<p align="center">
+    <img src="/.github/images/cam0008.jpg" width="90%" title='step 6' />
+</p>
+
+<p align="center">
+    <font size="5">Once the assembly is complete your robot should look like the image above</font>
 </p>
 
 <!--- 
@@ -177,7 +270,8 @@ When ESP32Cam is powered on, wait for 10-15sec then access the image via the lin
 
 ### How to access your camera stream <a id="chapter2-2"></a>
 
-Connect to WiFi under SSID: STEAMxD_2.4, for password please request it from your respective instructors 
+When ESP32Cam is powered on, wait for 10-15sec then access the image via the link according to your group. \
+Connect to WiFi under SSID: STEAMxD_5, for password please request it from your respective instructors.
 
 Group 21 (camera1) - [link](http://192.168.50.21/mjpeg/1) \
 Group 22 (camera2) - [link](http://192.168.50.22/mjpeg/1) \
