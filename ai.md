@@ -23,7 +23,7 @@
     <img src="/.github/images/ai-overview.jpg" width="90%" title='testing1' />
 </p>
 
-The diagram shows the iteration process when training a custom object detection model. Teams will be required to use two online platforms mainly [makesense.ai](https://www.makesense.ai/) for labelling of new images and [google colab notebook](custom-yolov5-object-detection.ipynb) for augmentation, training and evaluation of models. 
+The diagram shows the iteration process when training a custom object detection model. Teams will be required to use two online platforms mainly [roboflow](https://www.roboflow.com/) for labelling of new images and [google colab notebook](custom-yolov5-object-detection.ipynb) for augmentation, training and evaluation of models. 
 
 Supervised learning is used for the iteraction process. Please proceed to [Introduction to Machine Learning](https://developers.google.com/machine-learning/intro-to-ml) for a short overview on machine learning and explanation on supervised learning. 
 
@@ -94,9 +94,7 @@ There are 2 main categories, humans and pets. Pets is broken down into 3 sub-cat
 
 ## Labeling <a id="chapter3"></a>
 
-Before teams can proceed to train the model labelling of the new images will be required. Below is a guided tutorial on how to label the images. Teams can obtain the labels-list.txt file [here](/data/labels-list.txt) and the labelling website [here](https://www.makesense.ai/). 
-
-https://user-images.githubusercontent.com/65292018/188316871-39b920eb-b4fd-414b-91b9-2ad2c7e74e38.mov
+Before teams can proceed to train the model, labelling of new images will be required. The guided tutorial can be found within [Day 3(PM) - Artificial Intelligence Session Slide 24 to Slide 37](/learning-materials/Day 3/Day 3 (PM) - Artificial Intelligence Session.pdf). Teams can obtain the baseline-dataset [here](drive.google.com/drive/folders/1ZomnP3k6-a1SZfF4P2IrQFYi909cyByz?usp=share_link) and the labelling website [here](https://www.roboflow.com/). 
 
 
 ## Training the custom object detection model <a id="chapter4"></a>
@@ -113,7 +111,6 @@ Some tips for best training results can be found in the [original repository](ht
 - background images to reduce false positives (this might be part of their data collection so as to reduce the labeling efforts)
 
 -->
-
 
 ## Further Learning Resources <a id="chapter6"></a>
 
