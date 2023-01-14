@@ -94,7 +94,7 @@ There are 2 main categories, humans and pets. Pets is broken down into 3 sub-cat
 
 ## Labeling <a id="chapter3"></a>
 
-Before teams can proceed to train the model, labelling of new images will be required. The guided tutorial can be found [here]("/learning-materials/Day 3/Day 3 (PM) - Artificial Intelligence Session.pdf") from slide 24 to slide 37. Teams can obtain the baseline-dataset [here](drive.google.com/drive/folders/1ZomnP3k6-a1SZfF4P2IrQFYi909cyByz?usp=share_link) and the labelling website [here](https://www.roboflow.com/). 
+Before teams can proceed to train the model, labelling of new images will be required. The guided tutorial can be found [here](learning-materials/Day 3/) from slide 24 to slide 37. Teams can obtain the baseline-dataset [here](drive.google.com/drive/folders/1ZomnP3k6-a1SZfF4P2IrQFYi909cyByz?usp=share_link) and the labelling website [here](https://www.roboflow.com/). 
 
 
 ## Training the custom object detection model <a id="chapter4"></a>
