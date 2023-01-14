@@ -12,25 +12,31 @@
 # Table of Contents
 * [STEAMxD Competition 2022](#chapter1)
 * [Game Fields](#chapter2)
-    * [Competition Zone (Outdoor)](#section-2-1)
-    * [Competition Zone (Indoor)](#section-2-2)
 * [Key Field Items](#chapter3)
 * [Scoring Metrics](#chapter5)
     * [Accessibility](#section5-1)
     * [Object Detection](#section5-2)
 
-## STEAMxD Competition 2022 <a id="chapter1"></a>
-STEAMxD is a competition where undergraduate student groups would learn the basics of object detection algorithms, AI model training and ethics. They would be using robots to navigate through a game arena and making ethical decisions along the way, scoring points for determining the winner for the competition.
+## STEAMxD - AI Rescue Operation Challenge 2023 <a id="chapter1"></a>
+
+In this challenge, your team will need to combine all elements of STEAM x D to carry out the mission of rescuing victims from a disaster area using robots equipped with AI image recognition technology. Using state of the art AI-powered robots, your team will first need to modify and retrofit the robot to carry an onboard camera. This will be achieved using computer-aided design (CAD) and 3D printing technologies.
+
+Your team will be tasked to explore a region of (120m x 50m). Given that it is a search and rescue mission, your team will have to navigate the terrain and successfully ‘rescue’ the injured/trapped ‘victim’/’pets’. A successful ‘rescue’ is accomplished when you’ve correctly identified the ‘civilians’/’pets’ for a minimum of 1 second.
+
+In a single arena, a total of 15 minutes has been allocated for you to compete. You can attempt as many rescues as you need within the allocated time. Of all the attempts, the best attempt will be the score awarded to your team. Do note that another team will also be operating in the same 5 x 2.5m terrain area and you will need to communicate and negotiate the arena to ensure that no collisions take place.
+
+There will be a total of 2 different arenas, outdoor and indoor, for which you will get 15 min on each terrain for your team to attempt. The overall score will be the sum of both mission scores.
 
 ## Game Fields <a id="chapter2"></a>
-### Competition Zone (Outdoor) <a id="section-2-1"></a>
+
 <p align="center">
-    <img src="/.github/images/outdoor-arena.jpg" width="55%" title='Outdoor Arena' />
+    <hx><b>Outdoor Arena&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; &nbsp; &nbsp; Indoor Arena</b></hx>
 </p>
 
-### Competition Zone (Indoor) <a id="section-2-2"></a>
 <p align="center">
-    <img src="/.github/images/indoor-arena.jpg" width="55%" title='Indoor Arena' />
+    <img src="/.github/images/outdoor-arena.jpg" width="45%" title='Outdoor' />
+<!--     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+    <img src="/.github/images/indoor-arena.jpg" width="45%" title='Indoor' />
 </p>
 
 ## Key Field Items <a id="chapter3"></a>
