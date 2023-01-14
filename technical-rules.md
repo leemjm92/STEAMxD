@@ -34,10 +34,16 @@ There will be a total of 2 different arenas, outdoor and indoor, for which you w
 </p>
 
 <p align="center">
-    <img src="/.github/images/outdoor-arena.jpg" width="45%" title='Outdoor' />
+    <img src="/.github/images/outdoor-arena-label.jpg" width="45%" title='Outdoor' />
 <!--     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
-    <img src="/.github/images/indoor-arena.jpg" width="45%" title='Indoor' />
+    <img src="/.github/images/indoor-arena-label.jpg" width="45%" title='Indoor' />
 </p>
+
+1. The blue arrow tape (green circle in the image above) indicates the starting position for your robot.
+2. The solid blue tape (orange rectangle in the image above) in the middle defines the 1st half and 2nd half of the zone. 
+3. The blue/silver/black dotted tape (red rectangle in the image above) near the exit defines that you’re no long able to reverse into the field. 
+4. If your robot is out of bounds (100% of the robot is out of the mat) your run will be stopped, and you will have to start from the beginning of the arena again as indicated by the blue arrow tape (green circle in the image above).
+5.If your robot is unable to move, you will be allowed to reset the robot to an upright position without penalty. This will be done by the judge in-charge of your arena.
 
 ## Key Field Items <a id="chapter3"></a>
 
