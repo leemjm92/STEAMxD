@@ -14,8 +14,8 @@
 * [Game Fields](#chapter2)
 * [Key Field Items](#chapter3)
 * [Scoring Metrics](#chapter5)
-    * [Accessibility](#section5-1)
-    * [Object Detection](#section5-2)
+    * [Object Detection Challenge (80% of total score)](#section5-1)
+    * [Achievements (20% of total score)](#section5-2)
 
 ## STEAMxD - AI Rescue Operation Challenge 2023 <a id="chapter1"></a>
 
