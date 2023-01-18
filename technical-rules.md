@@ -101,12 +101,8 @@ Team A points = $8 \times 3 = 24$ (capped at 20%)
 1. Hidden achievement #1 (outdoor arena) 
 2. Hidden achievement #2 (indoor arena)
 3. Most humans detected 
-4. Most cats detected 
-5. Most dogs detected 
-6. Most rabbits detected 
-7. Fastest time completion per arena (outdoor/indoor)  
-8. Most accurate detection model overall (all 4 classes) 
-9. Most accurate detection model for humans 
-10. Most accurate detection model for cats 
-11. Most accurate detection model for dogs 
-12. Most accurate detection model for rabbits 
+4. Most pets detected 
+5. Fastest time completion per arena (outdoor/indoor)  
+6. Most accurate detection model overall (all 2 classes) 
+7. Most accurate detection model for humans 
+8. Most accurate detection model for pets 
